@@ -1,0 +1,1501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE11C9EF1A78AC4A00A079CA /* original_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9D91A78AC4A00A079CA /* original_1.png */; };
+		EE11C9F01A78AC4A00A079CA /* original_2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9DA1A78AC4A00A079CA /* original_2.png */; };
+		EE11C9F11A78AC4A00A079CA /* original_3.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9DB1A78AC4A00A079CA /* original_3.png */; };
+		EE11C9F21A78AC4A00A079CA /* original_4.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9DC1A78AC4A00A079CA /* original_4.png */; };
+		EE11C9F31A78AC4A00A079CA /* original_5.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9DD1A78AC4A00A079CA /* original_5.png */; };
+		EE11C9F41A78AC4A00A079CA /* original_6.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9DE1A78AC4A00A079CA /* original_6.png */; };
+		EE11C9F51A78AC4A00A079CA /* original_7.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9DF1A78AC4A00A079CA /* original_7.png */; };
+		EE11C9F61A78AC4A00A079CA /* original_8.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E01A78AC4A00A079CA /* original_8.png */; };
+		EE11C9F71A78AC4A00A079CA /* original_9.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E11A78AC4A00A079CA /* original_9.png */; };
+		EE11C9F81A78AC4A00A079CA /* original_10.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E21A78AC4A00A079CA /* original_10.png */; };
+		EE11C9F91A78AC4A00A079CA /* original_11.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E31A78AC4A00A079CA /* original_11.png */; };
+		EE11C9FA1A78AC4A00A079CA /* original_12.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E41A78AC4A00A079CA /* original_12.png */; };
+		EE11C9FB1A78AC4A00A079CA /* original_13.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E51A78AC4A00A079CA /* original_13.png */; };
+		EE11C9FC1A78AC4A00A079CA /* original_14.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E61A78AC4A00A079CA /* original_14.png */; };
+		EE11C9FD1A78AC4A00A079CA /* original_15.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E71A78AC4A00A079CA /* original_15.png */; };
+		EE11C9FE1A78AC4A00A079CA /* original_16.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E81A78AC4A00A079CA /* original_16.png */; };
+		EE11C9FF1A78AC4A00A079CA /* original_17.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9E91A78AC4A00A079CA /* original_17.png */; };
+		EE11CA001A78AC4A00A079CA /* original_18.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9EA1A78AC4A00A079CA /* original_18.png */; };
+		EE11CA011A78AC4A00A079CA /* original_19.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9EB1A78AC4A00A079CA /* original_19.png */; };
+		EE11CA021A78AC4A00A079CA /* original_20.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9EC1A78AC4A00A079CA /* original_20.png */; };
+		EE11CA031A78AC4A00A079CA /* original_21.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9ED1A78AC4A00A079CA /* original_21.png */; };
+		EE11CA041A78AC4A00A079CA /* original_22.png in Resources */ = {isa = PBXBuildFile; fileRef = EE11C9EE1A78AC4A00A079CA /* original_22.png */; };
+		EE14EA0E1A8BC0A7002BD8A1 /* Main4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE14EA0C1A8BC0A7002BD8A1 /* Main4.storyboard */; };
+		EE14EA111A8BC32B002BD8A1 /* MainiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE14EA0F1A8BC32B002BD8A1 /* MainiPad.storyboard */; };
+		EE14EA131A8BC473002BD8A1 /* Map_mask_last4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE14EA121A8BC473002BD8A1 /* Map_mask_last4@2x.png */; };
+		EE14EA161A8BCF62002BD8A1 /* widget_guide_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE14EA141A8BCF62002BD8A1 /* widget_guide_bg@2x.png */; };
+		EE14EA171A8BCF62002BD8A1 /* widget_guide_close_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE14EA151A8BCF62002BD8A1 /* widget_guide_close_white@2x.png */; };
+		EE1902E21A8131A800C549E9 /* mpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1902E11A8131A800C549E9 /* mpoint.png */; };
+		EE1902E41A81647500C549E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1902E31A81647500C549E9 /* CoreLocation.framework */; };
+		EE1902E61A81647C00C549E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1902E51A81647C00C549E9 /* CoreGraphics.framework */; };
+		EE1902E81A81648600C549E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1902E71A81648600C549E9 /* UIKit.framework */; };
+		EE1902EA1A81649100C549E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1902E91A81649100C549E9 /* Foundation.framework */; };
+		EE28C0A61A8329200027837F /* morse_long_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0A01A8329200027837F /* morse_long_grey.png */; };
+		EE28C0A71A8329200027837F /* morse_long.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0A11A8329200027837F /* morse_long.png */; };
+		EE28C0A81A8329200027837F /* morse_short_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0A21A8329200027837F /* morse_short_grey.png */; };
+		EE28C0A91A8329200027837F /* morse_short.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0A31A8329200027837F /* morse_short.png */; };
+		EE28C0AA1A8329200027837F /* morse_slash_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0A41A8329200027837F /* morse_slash_grey.png */; };
+		EE28C0AB1A8329200027837F /* morse_slash.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0A51A8329200027837F /* morse_slash.png */; };
+		EE28C0AD1A832A420027837F /* Morse_Text_Bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE28C0AC1A832A420027837F /* Morse_Text_Bg@2x.jpg */; };
+		EE296C501A6CA0510056099A /* brightness_adjustor.png in Resources */ = {isa = PBXBuildFile; fileRef = EE296C4F1A6CA0510056099A /* brightness_adjustor.png */; };
+		EE296C541A6CA16C0056099A /* compass_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EE296C511A6CA16C0056099A /* compass_background.png */; };
+		EE296C551A6CA16C0056099A /* compass_cap.png in Resources */ = {isa = PBXBuildFile; fileRef = EE296C521A6CA16C0056099A /* compass_cap.png */; };
+		EE296C561A6CA16C0056099A /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = EE296C531A6CA16C0056099A /* compass.png */; };
+		EE296C581A6CAC9F0056099A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE296C571A6CAC9F0056099A /* AVFoundation.framework */; };
+		EE2ECDA11A6BFF04004A9169 /* arc_rocket_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD951A6BFF04004A9169 /* arc_rocket_highlight@2x.png */; };
+		EE2ECDA21A6BFF04004A9169 /* arc_rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD961A6BFF04004A9169 /* arc_rocket@2x.png */; };
+		EE2ECDA31A6BFF04004A9169 /* backgroundcover.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD971A6BFF04004A9169 /* backgroundcover.png */; };
+		EE2ECDA41A6BFF04004A9169 /* brightness_adjustor_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD981A6BFF04004A9169 /* brightness_adjustor_bg.png */; };
+		EE2ECDA51A6BFF04004A9169 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD991A6BFF04004A9169 /* button_down.png */; };
+		EE2ECDA61A6BFF04004A9169 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD9A1A6BFF04004A9169 /* button_up.png */; };
+		EE2ECDA71A6BFF04004A9169 /* color_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD9B1A6BFF04004A9169 /* color_clicked.png */; };
+		EE2ECDA81A6BFF04004A9169 /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD9C1A6BFF04004A9169 /* color.png */; };
+		EE2ECDA91A6BFF04004A9169 /* Indicator_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD9D1A6BFF04004A9169 /* Indicator_Off.png */; };
+		EE2ECDAA1A6BFF04004A9169 /* Indicator_On.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD9E1A6BFF04004A9169 /* Indicator_On.png */; };
+		EE2ECDAB1A6BFF04004A9169 /* morse_clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECD9F1A6BFF04004A9169 /* morse_clicked.png */; };
+		EE2ECDAC1A6BFF04004A9169 /* morse.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECDA01A6BFF04004A9169 /* morse.png */; };
+		EE2ECDAE1A6C0280004A9169 /* brightness_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECDAD1A6C0280004A9169 /* brightness_indicator.png */; };
+		EE2ECDB01A6C03A5004A9169 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE2ECDAF1A6C03A5004A9169 /* background.jpg */; };
+		EE322C001A8250670049CE9C /* MorseCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE322BFF1A8250670049CE9C /* MorseCodes.plist */; };
+		EE322C031A82516A0049CE9C /* Morse_Button_Transmit.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C011A82516A0049CE9C /* Morse_Button_Transmit.png */; };
+		EE322C041A82516A0049CE9C /* Morse_Text_Mask_After@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C021A82516A0049CE9C /* Morse_Text_Mask_After@2x.png */; };
+		EE322C061A8251B40049CE9C /* Morse_Text_Mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C051A8251B40049CE9C /* Morse_Text_Mask@2x.png */; };
+		EE322C091A82591C0049CE9C /* Morse_Button_Close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C071A82591C0049CE9C /* Morse_Button_Close@2x.png */; };
+		EE322C0A1A82591C0049CE9C /* Morse_Button_Edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C081A82591C0049CE9C /* Morse_Button_Edit@2x.png */; };
+		EE322C791A825BFB0049CE9C /* Morse_Text_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C0C1A825BFA0049CE9C /* Morse_Text_0@2x.png */; };
+		EE322C7A1A825BFB0049CE9C /* Morse_Text_0_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C0D1A825BFA0049CE9C /* Morse_Text_0_gray@2x.png */; };
+		EE322C7B1A825BFB0049CE9C /* Morse_Text_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C0E1A825BFA0049CE9C /* Morse_Text_1@2x.png */; };
+		EE322C7C1A825BFB0049CE9C /* Morse_Text_1_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C0F1A825BFA0049CE9C /* Morse_Text_1_gray@2x.png */; };
+		EE322C7D1A825BFB0049CE9C /* Morse_Text_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C101A825BFA0049CE9C /* Morse_Text_2@2x.png */; };
+		EE322C7E1A825BFB0049CE9C /* Morse_Text_2_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C111A825BFA0049CE9C /* Morse_Text_2_gray@2x.png */; };
+		EE322C7F1A825BFB0049CE9C /* Morse_Text_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C121A825BFA0049CE9C /* Morse_Text_3@2x.png */; };
+		EE322C801A825BFB0049CE9C /* Morse_Text_3_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C131A825BFA0049CE9C /* Morse_Text_3_gray@2x.png */; };
+		EE322C811A825BFB0049CE9C /* Morse_Text_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C141A825BFA0049CE9C /* Morse_Text_4@2x.png */; };
+		EE322C821A825BFB0049CE9C /* Morse_Text_4_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C151A825BFA0049CE9C /* Morse_Text_4_gray@2x.png */; };
+		EE322C831A825BFB0049CE9C /* Morse_Text_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C161A825BFA0049CE9C /* Morse_Text_5@2x.png */; };
+		EE322C841A825BFB0049CE9C /* Morse_Text_5_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C171A825BFA0049CE9C /* Morse_Text_5_gray@2x.png */; };
+		EE322C851A825BFB0049CE9C /* Morse_Text_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C181A825BFA0049CE9C /* Morse_Text_6@2x.png */; };
+		EE322C861A825BFB0049CE9C /* Morse_Text_6_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C191A825BFA0049CE9C /* Morse_Text_6_gray@2x.png */; };
+		EE322C871A825BFB0049CE9C /* Morse_Text_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C1A1A825BFA0049CE9C /* Morse_Text_7@2x.png */; };
+		EE322C881A825BFB0049CE9C /* Morse_Text_7_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C1B1A825BFA0049CE9C /* Morse_Text_7_gray@2x.png */; };
+		EE322C891A825BFB0049CE9C /* Morse_Text_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C1C1A825BFA0049CE9C /* Morse_Text_8@2x.png */; };
+		EE322C8A1A825BFB0049CE9C /* Morse_Text_8_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C1D1A825BFA0049CE9C /* Morse_Text_8_gray@2x.png */; };
+		EE322C8B1A825BFB0049CE9C /* Morse_Text_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C1E1A825BFA0049CE9C /* Morse_Text_9@2x.png */; };
+		EE322C8C1A825BFB0049CE9C /* Morse_Text_9_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C1F1A825BFA0049CE9C /* Morse_Text_9_gray@2x.png */; };
+		EE322C8D1A825BFB0049CE9C /* Morse_Text_A@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C201A825BFA0049CE9C /* Morse_Text_A@2x.png */; };
+		EE322C8E1A825BFB0049CE9C /* Morse_Text_A_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C211A825BFA0049CE9C /* Morse_Text_A_gray@2x.png */; };
+		EE322C8F1A825BFB0049CE9C /* Morse_Text_and@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C221A825BFA0049CE9C /* Morse_Text_and@2x.png */; };
+		EE322C901A825BFB0049CE9C /* Morse_Text_and_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C231A825BFA0049CE9C /* Morse_Text_and_gray@2x.png */; };
+		EE322C911A825BFB0049CE9C /* Morse_Text_at@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C241A825BFA0049CE9C /* Morse_Text_at@2x.png */; };
+		EE322C921A825BFB0049CE9C /* Morse_Text_at_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C251A825BFA0049CE9C /* Morse_Text_at_gray@2x.png */; };
+		EE322C931A825BFB0049CE9C /* Morse_Text_B@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C261A825BFA0049CE9C /* Morse_Text_B@2x.png */; };
+		EE322C941A825BFB0049CE9C /* Morse_Text_B_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C271A825BFA0049CE9C /* Morse_Text_B_gray@2x.png */; };
+		EE322C951A825BFB0049CE9C /* Morse_Text_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C281A825BFA0049CE9C /* Morse_Text_C@2x.png */; };
+		EE322C961A825BFB0049CE9C /* Morse_Text_C_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C291A825BFA0049CE9C /* Morse_Text_C_gray@2x.png */; };
+		EE322C971A825BFB0049CE9C /* Morse_Text_colon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C2A1A825BFA0049CE9C /* Morse_Text_colon@2x.png */; };
+		EE322C981A825BFB0049CE9C /* Morse_Text_colon_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C2B1A825BFA0049CE9C /* Morse_Text_colon_gray@2x.png */; };
+		EE322C991A825BFB0049CE9C /* Morse_Text_comma@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C2C1A825BFA0049CE9C /* Morse_Text_comma@2x.png */; };
+		EE322C9A1A825BFB0049CE9C /* Morse_Text_comma_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C2D1A825BFA0049CE9C /* Morse_Text_comma_gray@2x.png */; };
+		EE322C9B1A825BFB0049CE9C /* Morse_Text_Cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C2E1A825BFA0049CE9C /* Morse_Text_Cursor.png */; };
+		EE322C9C1A825BFB0049CE9C /* Morse_Text_D@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C2F1A825BFA0049CE9C /* Morse_Text_D@2x.png */; };
+		EE322C9D1A825BFB0049CE9C /* Morse_Text_D_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C301A825BFA0049CE9C /* Morse_Text_D_gray@2x.png */; };
+		EE322C9E1A825BFB0049CE9C /* Morse_Text_dollar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C311A825BFA0049CE9C /* Morse_Text_dollar@2x.png */; };
+		EE322C9F1A825BFB0049CE9C /* Morse_Text_dollar_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C321A825BFA0049CE9C /* Morse_Text_dollar_gray@2x.png */; };
+		EE322CA01A825BFB0049CE9C /* Morse_Text_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C331A825BFA0049CE9C /* Morse_Text_dot@2x.png */; };
+		EE322CA11A825BFB0049CE9C /* Morse_Text_dot_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C341A825BFA0049CE9C /* Morse_Text_dot_gray@2x.png */; };
+		EE322CA21A825BFB0049CE9C /* Morse_Text_E@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C351A825BFA0049CE9C /* Morse_Text_E@2x.png */; };
+		EE322CA31A825BFB0049CE9C /* Morse_Text_E_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C361A825BFA0049CE9C /* Morse_Text_E_gray@2x.png */; };
+		EE322CA41A825BFB0049CE9C /* Morse_Text_equal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C371A825BFA0049CE9C /* Morse_Text_equal@2x.png */; };
+		EE322CA51A825BFB0049CE9C /* Morse_Text_equal_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C381A825BFB0049CE9C /* Morse_Text_equal_gray@2x.png */; };
+		EE322CA61A825BFB0049CE9C /* Morse_Text_exclamation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C391A825BFB0049CE9C /* Morse_Text_exclamation@2x.png */; };
+		EE322CA71A825BFB0049CE9C /* Morse_Text_exclamation_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C3A1A825BFB0049CE9C /* Morse_Text_exclamation_gray@2x.png */; };
+		EE322CA81A825BFB0049CE9C /* Morse_Text_F@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C3B1A825BFB0049CE9C /* Morse_Text_F@2x.png */; };
+		EE322CA91A825BFB0049CE9C /* Morse_Text_F_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C3C1A825BFB0049CE9C /* Morse_Text_F_gray@2x.png */; };
+		EE322CAA1A825BFB0049CE9C /* Morse_Text_G@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C3D1A825BFB0049CE9C /* Morse_Text_G@2x.png */; };
+		EE322CAB1A825BFB0049CE9C /* Morse_Text_G_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C3E1A825BFB0049CE9C /* Morse_Text_G_gray@2x.png */; };
+		EE322CAC1A825BFB0049CE9C /* Morse_Text_H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C3F1A825BFB0049CE9C /* Morse_Text_H@2x.png */; };
+		EE322CAD1A825BFB0049CE9C /* Morse_Text_H_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C401A825BFB0049CE9C /* Morse_Text_H_gray@2x.png */; };
+		EE322CAE1A825BFB0049CE9C /* Morse_Text_I@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C411A825BFB0049CE9C /* Morse_Text_I@2x.png */; };
+		EE322CAF1A825BFB0049CE9C /* Morse_Text_I_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C421A825BFB0049CE9C /* Morse_Text_I_gray@2x.png */; };
+		EE322CB01A825BFB0049CE9C /* Morse_Text_J@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C431A825BFB0049CE9C /* Morse_Text_J@2x.png */; };
+		EE322CB11A825BFB0049CE9C /* Morse_Text_J_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C441A825BFB0049CE9C /* Morse_Text_J_gray@2x.png */; };
+		EE322CB21A825BFB0049CE9C /* Morse_Text_K@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C451A825BFB0049CE9C /* Morse_Text_K@2x.png */; };
+		EE322CB31A825BFB0049CE9C /* Morse_Text_K_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C461A825BFB0049CE9C /* Morse_Text_K_gray@2x.png */; };
+		EE322CB41A825BFB0049CE9C /* Morse_Text_L@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C471A825BFB0049CE9C /* Morse_Text_L@2x.png */; };
+		EE322CB51A825BFB0049CE9C /* Morse_Text_L_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C481A825BFB0049CE9C /* Morse_Text_L_gray@2x.png */; };
+		EE322CB61A825BFB0049CE9C /* Morse_Text_left_bracket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C491A825BFB0049CE9C /* Morse_Text_left_bracket@2x.png */; };
+		EE322CB71A825BFB0049CE9C /* Morse_Text_left_bracket_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C4A1A825BFB0049CE9C /* Morse_Text_left_bracket_gray@2x.png */; };
+		EE322CB81A825BFB0049CE9C /* Morse_Text_M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C4B1A825BFB0049CE9C /* Morse_Text_M@2x.png */; };
+		EE322CB91A825BFB0049CE9C /* Morse_Text_M_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C4C1A825BFB0049CE9C /* Morse_Text_M_gray@2x.png */; };
+		EE322CBA1A825BFB0049CE9C /* Morse_Text_minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C4D1A825BFB0049CE9C /* Morse_Text_minus@2x.png */; };
+		EE322CBB1A825BFB0049CE9C /* Morse_Text_minus_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C4E1A825BFB0049CE9C /* Morse_Text_minus_gray@2x.png */; };
+		EE322CBC1A825BFB0049CE9C /* Morse_Text_N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C4F1A825BFB0049CE9C /* Morse_Text_N@2x.png */; };
+		EE322CBD1A825BFB0049CE9C /* Morse_Text_N_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C501A825BFB0049CE9C /* Morse_Text_N_gray@2x.png */; };
+		EE322CBE1A825BFB0049CE9C /* Morse_Text_O@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C511A825BFB0049CE9C /* Morse_Text_O@2x.png */; };
+		EE322CBF1A825BFB0049CE9C /* Morse_Text_O_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C521A825BFB0049CE9C /* Morse_Text_O_gray@2x.png */; };
+		EE322CC01A825BFB0049CE9C /* Morse_Text_P@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C531A825BFB0049CE9C /* Morse_Text_P@2x.png */; };
+		EE322CC11A825BFB0049CE9C /* Morse_Text_P_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C541A825BFB0049CE9C /* Morse_Text_P_gray@2x.png */; };
+		EE322CC21A825BFB0049CE9C /* Morse_Text_Q@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C551A825BFB0049CE9C /* Morse_Text_Q@2x.png */; };
+		EE322CC31A825BFB0049CE9C /* Morse_Text_Q_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C561A825BFB0049CE9C /* Morse_Text_Q_gray@2x.png */; };
+		EE322CC41A825BFB0049CE9C /* Morse_Text_question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C571A825BFB0049CE9C /* Morse_Text_question@2x.png */; };
+		EE322CC51A825BFB0049CE9C /* Morse_Text_question_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C581A825BFB0049CE9C /* Morse_Text_question_gray@2x.png */; };
+		EE322CC61A825BFB0049CE9C /* Morse_Text_quote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C591A825BFB0049CE9C /* Morse_Text_quote@2x.png */; };
+		EE322CC71A825BFB0049CE9C /* Morse_Text_quote_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C5A1A825BFB0049CE9C /* Morse_Text_quote_gray@2x.png */; };
+		EE322CC81A825BFB0049CE9C /* Morse_Text_R@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C5B1A825BFB0049CE9C /* Morse_Text_R@2x.png */; };
+		EE322CC91A825BFB0049CE9C /* Morse_Text_R_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C5C1A825BFB0049CE9C /* Morse_Text_R_gray@2x.png */; };
+		EE322CCA1A825BFB0049CE9C /* Morse_Text_right_bracket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C5D1A825BFB0049CE9C /* Morse_Text_right_bracket@2x.png */; };
+		EE322CCB1A825BFB0049CE9C /* Morse_Text_right_bracket_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C5E1A825BFB0049CE9C /* Morse_Text_right_bracket_gray@2x.png */; };
+		EE322CCC1A825BFB0049CE9C /* Morse_Text_S@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C5F1A825BFB0049CE9C /* Morse_Text_S@2x.png */; };
+		EE322CCD1A825BFB0049CE9C /* Morse_Text_S_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C601A825BFB0049CE9C /* Morse_Text_S_gray@2x.png */; };
+		EE322CCE1A825BFB0049CE9C /* Morse_Text_semicolon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C611A825BFB0049CE9C /* Morse_Text_semicolon@2x.png */; };
+		EE322CCF1A825BFB0049CE9C /* Morse_Text_semicolon_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C621A825BFB0049CE9C /* Morse_Text_semicolon_gray@2x.png */; };
+		EE322CD01A825BFB0049CE9C /* Morse_Text_single_quote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C631A825BFB0049CE9C /* Morse_Text_single_quote@2x.png */; };
+		EE322CD11A825BFB0049CE9C /* Morse_Text_single_quote_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C641A825BFB0049CE9C /* Morse_Text_single_quote_gray@2x.png */; };
+		EE322CD21A825BFB0049CE9C /* Morse_Text_slash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C651A825BFB0049CE9C /* Morse_Text_slash@2x.png */; };
+		EE322CD31A825BFB0049CE9C /* Morse_Text_slash_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C661A825BFB0049CE9C /* Morse_Text_slash_gray@2x.png */; };
+		EE322CD41A825BFB0049CE9C /* Morse_Text_space@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C671A825BFB0049CE9C /* Morse_Text_space@2x.png */; };
+		EE322CD51A825BFB0049CE9C /* Morse_Text_space_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C681A825BFB0049CE9C /* Morse_Text_space_gray@2x.png */; };
+		EE322CD61A825BFB0049CE9C /* Morse_Text_T@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C691A825BFB0049CE9C /* Morse_Text_T@2x.png */; };
+		EE322CD71A825BFB0049CE9C /* Morse_Text_T_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C6A1A825BFB0049CE9C /* Morse_Text_T_gray@2x.png */; };
+		EE322CD81A825BFB0049CE9C /* Morse_Text_U@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C6B1A825BFB0049CE9C /* Morse_Text_U@2x.png */; };
+		EE322CD91A825BFB0049CE9C /* Morse_Text_U_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C6C1A825BFB0049CE9C /* Morse_Text_U_gray@2x.png */; };
+		EE322CDA1A825BFB0049CE9C /* Morse_Text_underline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C6D1A825BFB0049CE9C /* Morse_Text_underline@2x.png */; };
+		EE322CDB1A825BFB0049CE9C /* Morse_Text_underline_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C6E1A825BFB0049CE9C /* Morse_Text_underline_gray@2x.png */; };
+		EE322CDC1A825BFB0049CE9C /* Morse_Text_V@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C6F1A825BFB0049CE9C /* Morse_Text_V@2x.png */; };
+		EE322CDD1A825BFB0049CE9C /* Morse_Text_V_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C701A825BFB0049CE9C /* Morse_Text_V_gray@2x.png */; };
+		EE322CDE1A825BFB0049CE9C /* Morse_Text_W@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C711A825BFB0049CE9C /* Morse_Text_W@2x.png */; };
+		EE322CDF1A825BFB0049CE9C /* Morse_Text_W_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C721A825BFB0049CE9C /* Morse_Text_W_gray@2x.png */; };
+		EE322CE01A825BFB0049CE9C /* Morse_Text_X@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C731A825BFB0049CE9C /* Morse_Text_X@2x.png */; };
+		EE322CE11A825BFB0049CE9C /* Morse_Text_X_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C741A825BFB0049CE9C /* Morse_Text_X_gray@2x.png */; };
+		EE322CE21A825BFB0049CE9C /* Morse_Text_Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C751A825BFB0049CE9C /* Morse_Text_Y@2x.png */; };
+		EE322CE31A825BFB0049CE9C /* Morse_Text_Y_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C761A825BFB0049CE9C /* Morse_Text_Y_gray@2x.png */; };
+		EE322CE41A825BFB0049CE9C /* Morse_Text_Z@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C771A825BFB0049CE9C /* Morse_Text_Z@2x.png */; };
+		EE322CE51A825BFB0049CE9C /* Morse_Text_Z_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE322C781A825BFB0049CE9C /* Morse_Text_Z_gray@2x.png */; };
+		EE3AC5DF1A89374E007D117C /* adjustment_end.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5D61A89374E007D117C /* adjustment_end.wav */; };
+		EE3AC5E01A89374E007D117C /* adjustment_move.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5D71A89374E007D117C /* adjustment_move.wav */; };
+		EE3AC5E11A89374E007D117C /* button_press.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5D81A89374E007D117C /* button_press.wav */; };
+		EE3AC5E21A89374E007D117C /* cell_move.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5D91A89374E007D117C /* cell_move.wav */; };
+		EE3AC5E31A89374E007D117C /* Da.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5DA1A89374E007D117C /* Da.wav */; };
+		EE3AC5E41A89374E007D117C /* Di.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5DB1A89374E007D117C /* Di.wav */; };
+		EE3AC5E51A89374E007D117C /* sound_button_click.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5DC1A89374E007D117C /* sound_button_click.wav */; };
+		EE3AC5E61A89374E007D117C /* theme_choose.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5DD1A89374E007D117C /* theme_choose.wav */; };
+		EE3AC5E71A89374E007D117C /* torch_button.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE3AC5DE1A89374E007D117C /* torch_button.wav */; };
+		EE4F472A1A81E71F00EF2E43 /* Color_Adjuster_Bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47211A81E71F00EF2E43 /* Color_Adjuster_Bg@2x.png */; };
+		EE4F472B1A81E71F00EF2E43 /* Map_Button_Close.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47221A81E71F00EF2E43 /* Map_Button_Close.png */; };
+		EE4F472C1A81E71F00EF2E43 /* Map_Button_LED_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47231A81E71F00EF2E43 /* Map_Button_LED_Off.png */; };
+		EE4F472D1A81E71F00EF2E43 /* Map_Button_LED_On.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47241A81E71F00EF2E43 /* Map_Button_LED_On.png */; };
+		EE4F472E1A81E71F00EF2E43 /* Map_Button_Locate.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47251A81E71F00EF2E43 /* Map_Button_Locate.png */; };
+		EE4F472F1A81E71F00EF2E43 /* Map_Button_Located.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47261A81E71F00EF2E43 /* Map_Button_Located.png */; };
+		EE4F47301A81E71F00EF2E43 /* Map_Button_Locating.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47271A81E71F00EF2E43 /* Map_Button_Locating.png */; };
+		EE4F47311A81E71F00EF2E43 /* Map_Compass.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47281A81E71F00EF2E43 /* Map_Compass.png */; };
+		EE4F47341A81E7E900EF2E43 /* Map_mask_last.png in Resources */ = {isa = PBXBuildFile; fileRef = EE4F47331A81E7E900EF2E43 /* Map_mask_last.png */; };
+		EE4F47361A81E8B300EF2E43 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F47351A81E8B300EF2E43 /* MapKit.framework */; };
+		EE4F47391A81EDAD00EF2E43 /* ColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4F47381A81EDAD00EF2E43 /* ColorController.m */; };
+		EE4F473C1A81EDC100EF2E43 /* MorseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4F473B1A81EDC100EF2E43 /* MorseViewController.m */; };
+		EE6459D71A8A664E00638C25 /* WidgetColor_Color_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459CC1A8A664E00638C25 /* WidgetColor_Color_highlighted.png */; };
+		EE6459D81A8A664E00638C25 /* WidgetColor_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459CD1A8A664E00638C25 /* WidgetColor_Color.png */; };
+		EE6459D91A8A664E00638C25 /* WidgetColor_Compass_Active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459CE1A8A664E00638C25 /* WidgetColor_Compass_Active.png */; };
+		EE6459DA1A8A664E00638C25 /* WidgetColor_Compass_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459CF1A8A664E00638C25 /* WidgetColor_Compass_highlighted.png */; };
+		EE6459DB1A8A664E00638C25 /* WidgetColor_Compass.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459D01A8A664E00638C25 /* WidgetColor_Compass.png */; };
+		EE6459DC1A8A664E00638C25 /* WidgetColor_Flashlight_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459D11A8A664E00638C25 /* WidgetColor_Flashlight_highlighted.png */; };
+		EE6459DD1A8A664E00638C25 /* WidgetColor_Flashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459D21A8A664E00638C25 /* WidgetColor_Flashlight.png */; };
+		EE6459DE1A8A664E00638C25 /* WidgetColor_Morse_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459D31A8A664E00638C25 /* WidgetColor_Morse_highlighted.png */; };
+		EE6459DF1A8A664E00638C25 /* WidgetColor_Morse.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459D41A8A664E00638C25 /* WidgetColor_Morse.png */; };
+		EE6459E01A8A664E00638C25 /* WidgetColor_SOS_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459D51A8A664E00638C25 /* WidgetColor_SOS_highlighted.png */; };
+		EE6459E11A8A664E00638C25 /* WidgetColor_SOS.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6459D61A8A664E00638C25 /* WidgetColor_SOS.png */; };
+		EE6459E41A8A74A100638C25 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1902E31A81647500C549E9 /* CoreLocation.framework */; };
+		EE6DB4E71A8281730085A369 /* btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DB4E51A8281730085A369 /* btn_close@2x.png */; };
+		EE6DB4E81A8281730085A369 /* Color_Adjuster_Dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6DB4E61A8281730085A369 /* Color_Adjuster_Dot@2x.png */; };
+		EE6DBB8F1A69565800948356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6DBB8E1A69565800948356 /* main.m */; };
+		EE6DBB921A69565800948356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6DBB911A69565800948356 /* AppDelegate.m */; };
+		EE6DBB951A69565800948356 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6DBB941A69565800948356 /* ViewController.m */; };
+		EE6DBB981A69565800948356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6DBB961A69565800948356 /* Main.storyboard */; };
+		EE6DBB9A1A69565800948356 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6DBB991A69565800948356 /* Images.xcassets */; };
+		EE6DBB9D1A69565800948356 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6DBB9B1A69565800948356 /* LaunchScreen.xib */; };
+		EE6DBBA91A69565900948356 /* FlashlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6DBBA81A69565900948356 /* FlashlightTests.m */; };
+		EE88394A1A89480200D38067 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8839491A89480200D38067 /* NotificationCenter.framework */; };
+		EE8839501A89480200D38067 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88394F1A89480200D38067 /* TodayViewController.m */; };
+		EE8839521A89480200D38067 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8839511A89480200D38067 /* MainInterface.storyboard */; };
+		EE8839551A89480200D38067 /* FlashLightToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EE8839471A89480200D38067 /* FlashLightToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EEBEFEBB1A8C533B00D835B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1902E51A81647C00C549E9 /* CoreGraphics.framework */; };
+		EEBEFEBD1A8C5E7F00D835B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBEFEBC1A8C5E7F00D835B1 /* AudioToolbox.framework */; };
+		EEBEFEBF1A8C5E8800D835B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBEFEBE1A8C5E8800D835B1 /* SystemConfiguration.framework */; };
+		EEBEFEC11A8C5E8D00D835B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBEFEC01A8C5E8D00D835B1 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6DBBA31A69565800948356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6DBB811A69565700948356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6DBB881A69565700948356;
+			remoteInfo = Flashlight;
+		};
+		EE8839531A89480200D38067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6DBB811A69565700948356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8839461A89480200D38067;
+			remoteInfo = FlashLightToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE8839591A89480200D38067 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EE8839551A89480200D38067 /* FlashLightToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE11C9D91A78AC4A00A079CA /* original_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_1.png; sourceTree = "<group>"; };
+		EE11C9DA1A78AC4A00A079CA /* original_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_2.png; sourceTree = "<group>"; };
+		EE11C9DB1A78AC4A00A079CA /* original_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_3.png; sourceTree = "<group>"; };
+		EE11C9DC1A78AC4A00A079CA /* original_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_4.png; sourceTree = "<group>"; };
+		EE11C9DD1A78AC4A00A079CA /* original_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_5.png; sourceTree = "<group>"; };
+		EE11C9DE1A78AC4A00A079CA /* original_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_6.png; sourceTree = "<group>"; };
+		EE11C9DF1A78AC4A00A079CA /* original_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_7.png; sourceTree = "<group>"; };
+		EE11C9E01A78AC4A00A079CA /* original_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_8.png; sourceTree = "<group>"; };
+		EE11C9E11A78AC4A00A079CA /* original_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_9.png; sourceTree = "<group>"; };
+		EE11C9E21A78AC4A00A079CA /* original_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_10.png; sourceTree = "<group>"; };
+		EE11C9E31A78AC4A00A079CA /* original_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_11.png; sourceTree = "<group>"; };
+		EE11C9E41A78AC4A00A079CA /* original_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_12.png; sourceTree = "<group>"; };
+		EE11C9E51A78AC4A00A079CA /* original_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_13.png; sourceTree = "<group>"; };
+		EE11C9E61A78AC4A00A079CA /* original_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_14.png; sourceTree = "<group>"; };
+		EE11C9E71A78AC4A00A079CA /* original_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_15.png; sourceTree = "<group>"; };
+		EE11C9E81A78AC4A00A079CA /* original_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_16.png; sourceTree = "<group>"; };
+		EE11C9E91A78AC4A00A079CA /* original_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_17.png; sourceTree = "<group>"; };
+		EE11C9EA1A78AC4A00A079CA /* original_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_18.png; sourceTree = "<group>"; };
+		EE11C9EB1A78AC4A00A079CA /* original_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_19.png; sourceTree = "<group>"; };
+		EE11C9EC1A78AC4A00A079CA /* original_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_20.png; sourceTree = "<group>"; };
+		EE11C9ED1A78AC4A00A079CA /* original_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_21.png; sourceTree = "<group>"; };
+		EE11C9EE1A78AC4A00A079CA /* original_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_22.png; sourceTree = "<group>"; };
+		EE14EA0D1A8BC0A7002BD8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main4.storyboard; sourceTree = "<group>"; };
+		EE14EA101A8BC32B002BD8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainiPad.storyboard; sourceTree = "<group>"; };
+		EE14EA121A8BC473002BD8A1 /* Map_mask_last4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map_mask_last4@2x.png"; sourceTree = "<group>"; };
+		EE14EA141A8BCF62002BD8A1 /* widget_guide_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "widget_guide_bg@2x.png"; sourceTree = "<group>"; };
+		EE14EA151A8BCF62002BD8A1 /* widget_guide_close_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "widget_guide_close_white@2x.png"; sourceTree = "<group>"; };
+		EE1902E11A8131A800C549E9 /* mpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mpoint.png; sourceTree = "<group>"; };
+		EE1902E31A81647500C549E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE1902E51A81647C00C549E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE1902E71A81648600C549E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE1902E91A81649100C549E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE28C0A01A8329200027837F /* morse_long_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse_long_grey.png; sourceTree = "<group>"; };
+		EE28C0A11A8329200027837F /* morse_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse_long.png; sourceTree = "<group>"; };
+		EE28C0A21A8329200027837F /* morse_short_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse_short_grey.png; sourceTree = "<group>"; };
+		EE28C0A31A8329200027837F /* morse_short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse_short.png; sourceTree = "<group>"; };
+		EE28C0A41A8329200027837F /* morse_slash_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse_slash_grey.png; sourceTree = "<group>"; };
+		EE28C0A51A8329200027837F /* morse_slash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse_slash.png; sourceTree = "<group>"; };
+		EE28C0AC1A832A420027837F /* Morse_Text_Bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Morse_Text_Bg@2x.jpg"; path = "Images/Morse_Text_Bg@2x.jpg"; sourceTree = SOURCE_ROOT; };
+		EE296C4F1A6CA0510056099A /* brightness_adjustor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness_adjustor.png; sourceTree = "<group>"; };
+		EE296C511A6CA16C0056099A /* compass_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_background.png; sourceTree = "<group>"; };
+		EE296C521A6CA16C0056099A /* compass_cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_cap.png; sourceTree = "<group>"; };
+		EE296C531A6CA16C0056099A /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		EE296C571A6CAC9F0056099A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE2ECD951A6BFF04004A9169 /* arc_rocket_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arc_rocket_highlight@2x.png"; sourceTree = "<group>"; };
+		EE2ECD961A6BFF04004A9169 /* arc_rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arc_rocket@2x.png"; sourceTree = "<group>"; };
+		EE2ECD971A6BFF04004A9169 /* backgroundcover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundcover.png; sourceTree = "<group>"; };
+		EE2ECD981A6BFF04004A9169 /* brightness_adjustor_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness_adjustor_bg.png; sourceTree = "<group>"; };
+		EE2ECD991A6BFF04004A9169 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		EE2ECD9A1A6BFF04004A9169 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		EE2ECD9B1A6BFF04004A9169 /* color_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_clicked.png; sourceTree = "<group>"; };
+		EE2ECD9C1A6BFF04004A9169 /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		EE2ECD9D1A6BFF04004A9169 /* Indicator_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indicator_Off.png; sourceTree = "<group>"; };
+		EE2ECD9E1A6BFF04004A9169 /* Indicator_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indicator_On.png; sourceTree = "<group>"; };
+		EE2ECD9F1A6BFF04004A9169 /* morse_clicked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse_clicked.png; sourceTree = "<group>"; };
+		EE2ECDA01A6BFF04004A9169 /* morse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morse.png; sourceTree = "<group>"; };
+		EE2ECDAD1A6C0280004A9169 /* brightness_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness_indicator.png; sourceTree = "<group>"; };
+		EE2ECDAF1A6C03A5004A9169 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		EE322BFF1A8250670049CE9C /* MorseCodes.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MorseCodes.plist; sourceTree = "<group>"; };
+		EE322C011A82516A0049CE9C /* Morse_Button_Transmit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morse_Button_Transmit.png; sourceTree = "<group>"; };
+		EE322C021A82516A0049CE9C /* Morse_Text_Mask_After@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Mask_After@2x.png"; sourceTree = "<group>"; };
+		EE322C051A8251B40049CE9C /* Morse_Text_Mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Mask@2x.png"; sourceTree = "<group>"; };
+		EE322C071A82591C0049CE9C /* Morse_Button_Close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Button_Close@2x.png"; sourceTree = "<group>"; };
+		EE322C081A82591C0049CE9C /* Morse_Button_Edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Button_Edit@2x.png"; sourceTree = "<group>"; };
+		EE322C0C1A825BFA0049CE9C /* Morse_Text_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_0@2x.png"; sourceTree = "<group>"; };
+		EE322C0D1A825BFA0049CE9C /* Morse_Text_0_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_0_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C0E1A825BFA0049CE9C /* Morse_Text_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_1@2x.png"; sourceTree = "<group>"; };
+		EE322C0F1A825BFA0049CE9C /* Morse_Text_1_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_1_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C101A825BFA0049CE9C /* Morse_Text_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_2@2x.png"; sourceTree = "<group>"; };
+		EE322C111A825BFA0049CE9C /* Morse_Text_2_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_2_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C121A825BFA0049CE9C /* Morse_Text_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_3@2x.png"; sourceTree = "<group>"; };
+		EE322C131A825BFA0049CE9C /* Morse_Text_3_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_3_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C141A825BFA0049CE9C /* Morse_Text_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_4@2x.png"; sourceTree = "<group>"; };
+		EE322C151A825BFA0049CE9C /* Morse_Text_4_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_4_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C161A825BFA0049CE9C /* Morse_Text_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_5@2x.png"; sourceTree = "<group>"; };
+		EE322C171A825BFA0049CE9C /* Morse_Text_5_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_5_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C181A825BFA0049CE9C /* Morse_Text_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_6@2x.png"; sourceTree = "<group>"; };
+		EE322C191A825BFA0049CE9C /* Morse_Text_6_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_6_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C1A1A825BFA0049CE9C /* Morse_Text_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_7@2x.png"; sourceTree = "<group>"; };
+		EE322C1B1A825BFA0049CE9C /* Morse_Text_7_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_7_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C1C1A825BFA0049CE9C /* Morse_Text_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_8@2x.png"; sourceTree = "<group>"; };
+		EE322C1D1A825BFA0049CE9C /* Morse_Text_8_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_8_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C1E1A825BFA0049CE9C /* Morse_Text_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_9@2x.png"; sourceTree = "<group>"; };
+		EE322C1F1A825BFA0049CE9C /* Morse_Text_9_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_9_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C201A825BFA0049CE9C /* Morse_Text_A@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_A@2x.png"; sourceTree = "<group>"; };
+		EE322C211A825BFA0049CE9C /* Morse_Text_A_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_A_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C221A825BFA0049CE9C /* Morse_Text_and@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_and@2x.png"; sourceTree = "<group>"; };
+		EE322C231A825BFA0049CE9C /* Morse_Text_and_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_and_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C241A825BFA0049CE9C /* Morse_Text_at@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_at@2x.png"; sourceTree = "<group>"; };
+		EE322C251A825BFA0049CE9C /* Morse_Text_at_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_at_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C261A825BFA0049CE9C /* Morse_Text_B@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_B@2x.png"; sourceTree = "<group>"; };
+		EE322C271A825BFA0049CE9C /* Morse_Text_B_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_B_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C281A825BFA0049CE9C /* Morse_Text_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_C@2x.png"; sourceTree = "<group>"; };
+		EE322C291A825BFA0049CE9C /* Morse_Text_C_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_C_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C2A1A825BFA0049CE9C /* Morse_Text_colon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_colon@2x.png"; sourceTree = "<group>"; };
+		EE322C2B1A825BFA0049CE9C /* Morse_Text_colon_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_colon_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C2C1A825BFA0049CE9C /* Morse_Text_comma@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_comma@2x.png"; sourceTree = "<group>"; };
+		EE322C2D1A825BFA0049CE9C /* Morse_Text_comma_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_comma_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C2E1A825BFA0049CE9C /* Morse_Text_Cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morse_Text_Cursor.png; sourceTree = "<group>"; };
+		EE322C2F1A825BFA0049CE9C /* Morse_Text_D@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_D@2x.png"; sourceTree = "<group>"; };
+		EE322C301A825BFA0049CE9C /* Morse_Text_D_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_D_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C311A825BFA0049CE9C /* Morse_Text_dollar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_dollar@2x.png"; sourceTree = "<group>"; };
+		EE322C321A825BFA0049CE9C /* Morse_Text_dollar_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_dollar_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C331A825BFA0049CE9C /* Morse_Text_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_dot@2x.png"; sourceTree = "<group>"; };
+		EE322C341A825BFA0049CE9C /* Morse_Text_dot_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_dot_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C351A825BFA0049CE9C /* Morse_Text_E@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_E@2x.png"; sourceTree = "<group>"; };
+		EE322C361A825BFA0049CE9C /* Morse_Text_E_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_E_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C371A825BFA0049CE9C /* Morse_Text_equal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_equal@2x.png"; sourceTree = "<group>"; };
+		EE322C381A825BFB0049CE9C /* Morse_Text_equal_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_equal_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C391A825BFB0049CE9C /* Morse_Text_exclamation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_exclamation@2x.png"; sourceTree = "<group>"; };
+		EE322C3A1A825BFB0049CE9C /* Morse_Text_exclamation_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_exclamation_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C3B1A825BFB0049CE9C /* Morse_Text_F@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_F@2x.png"; sourceTree = "<group>"; };
+		EE322C3C1A825BFB0049CE9C /* Morse_Text_F_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_F_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C3D1A825BFB0049CE9C /* Morse_Text_G@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_G@2x.png"; sourceTree = "<group>"; };
+		EE322C3E1A825BFB0049CE9C /* Morse_Text_G_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_G_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C3F1A825BFB0049CE9C /* Morse_Text_H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_H@2x.png"; sourceTree = "<group>"; };
+		EE322C401A825BFB0049CE9C /* Morse_Text_H_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_H_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C411A825BFB0049CE9C /* Morse_Text_I@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_I@2x.png"; sourceTree = "<group>"; };
+		EE322C421A825BFB0049CE9C /* Morse_Text_I_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_I_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C431A825BFB0049CE9C /* Morse_Text_J@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_J@2x.png"; sourceTree = "<group>"; };
+		EE322C441A825BFB0049CE9C /* Morse_Text_J_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_J_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C451A825BFB0049CE9C /* Morse_Text_K@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_K@2x.png"; sourceTree = "<group>"; };
+		EE322C461A825BFB0049CE9C /* Morse_Text_K_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_K_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C471A825BFB0049CE9C /* Morse_Text_L@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_L@2x.png"; sourceTree = "<group>"; };
+		EE322C481A825BFB0049CE9C /* Morse_Text_L_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_L_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C491A825BFB0049CE9C /* Morse_Text_left_bracket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_left_bracket@2x.png"; sourceTree = "<group>"; };
+		EE322C4A1A825BFB0049CE9C /* Morse_Text_left_bracket_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_left_bracket_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C4B1A825BFB0049CE9C /* Morse_Text_M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_M@2x.png"; sourceTree = "<group>"; };
+		EE322C4C1A825BFB0049CE9C /* Morse_Text_M_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_M_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C4D1A825BFB0049CE9C /* Morse_Text_minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_minus@2x.png"; sourceTree = "<group>"; };
+		EE322C4E1A825BFB0049CE9C /* Morse_Text_minus_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_minus_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C4F1A825BFB0049CE9C /* Morse_Text_N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_N@2x.png"; sourceTree = "<group>"; };
+		EE322C501A825BFB0049CE9C /* Morse_Text_N_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_N_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C511A825BFB0049CE9C /* Morse_Text_O@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_O@2x.png"; sourceTree = "<group>"; };
+		EE322C521A825BFB0049CE9C /* Morse_Text_O_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_O_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C531A825BFB0049CE9C /* Morse_Text_P@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_P@2x.png"; sourceTree = "<group>"; };
+		EE322C541A825BFB0049CE9C /* Morse_Text_P_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_P_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C551A825BFB0049CE9C /* Morse_Text_Q@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Q@2x.png"; sourceTree = "<group>"; };
+		EE322C561A825BFB0049CE9C /* Morse_Text_Q_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Q_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C571A825BFB0049CE9C /* Morse_Text_question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_question@2x.png"; sourceTree = "<group>"; };
+		EE322C581A825BFB0049CE9C /* Morse_Text_question_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_question_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C591A825BFB0049CE9C /* Morse_Text_quote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_quote@2x.png"; sourceTree = "<group>"; };
+		EE322C5A1A825BFB0049CE9C /* Morse_Text_quote_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_quote_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C5B1A825BFB0049CE9C /* Morse_Text_R@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_R@2x.png"; sourceTree = "<group>"; };
+		EE322C5C1A825BFB0049CE9C /* Morse_Text_R_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_R_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C5D1A825BFB0049CE9C /* Morse_Text_right_bracket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_right_bracket@2x.png"; sourceTree = "<group>"; };
+		EE322C5E1A825BFB0049CE9C /* Morse_Text_right_bracket_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_right_bracket_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C5F1A825BFB0049CE9C /* Morse_Text_S@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_S@2x.png"; sourceTree = "<group>"; };
+		EE322C601A825BFB0049CE9C /* Morse_Text_S_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_S_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C611A825BFB0049CE9C /* Morse_Text_semicolon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_semicolon@2x.png"; sourceTree = "<group>"; };
+		EE322C621A825BFB0049CE9C /* Morse_Text_semicolon_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_semicolon_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C631A825BFB0049CE9C /* Morse_Text_single_quote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_single_quote@2x.png"; sourceTree = "<group>"; };
+		EE322C641A825BFB0049CE9C /* Morse_Text_single_quote_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_single_quote_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C651A825BFB0049CE9C /* Morse_Text_slash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_slash@2x.png"; sourceTree = "<group>"; };
+		EE322C661A825BFB0049CE9C /* Morse_Text_slash_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_slash_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C671A825BFB0049CE9C /* Morse_Text_space@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_space@2x.png"; sourceTree = "<group>"; };
+		EE322C681A825BFB0049CE9C /* Morse_Text_space_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_space_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C691A825BFB0049CE9C /* Morse_Text_T@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_T@2x.png"; sourceTree = "<group>"; };
+		EE322C6A1A825BFB0049CE9C /* Morse_Text_T_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_T_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C6B1A825BFB0049CE9C /* Morse_Text_U@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_U@2x.png"; sourceTree = "<group>"; };
+		EE322C6C1A825BFB0049CE9C /* Morse_Text_U_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_U_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C6D1A825BFB0049CE9C /* Morse_Text_underline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_underline@2x.png"; sourceTree = "<group>"; };
+		EE322C6E1A825BFB0049CE9C /* Morse_Text_underline_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_underline_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C6F1A825BFB0049CE9C /* Morse_Text_V@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_V@2x.png"; sourceTree = "<group>"; };
+		EE322C701A825BFB0049CE9C /* Morse_Text_V_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_V_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C711A825BFB0049CE9C /* Morse_Text_W@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_W@2x.png"; sourceTree = "<group>"; };
+		EE322C721A825BFB0049CE9C /* Morse_Text_W_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_W_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C731A825BFB0049CE9C /* Morse_Text_X@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_X@2x.png"; sourceTree = "<group>"; };
+		EE322C741A825BFB0049CE9C /* Morse_Text_X_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_X_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C751A825BFB0049CE9C /* Morse_Text_Y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Y@2x.png"; sourceTree = "<group>"; };
+		EE322C761A825BFB0049CE9C /* Morse_Text_Y_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Y_gray@2x.png"; sourceTree = "<group>"; };
+		EE322C771A825BFB0049CE9C /* Morse_Text_Z@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Z@2x.png"; sourceTree = "<group>"; };
+		EE322C781A825BFB0049CE9C /* Morse_Text_Z_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Morse_Text_Z_gray@2x.png"; sourceTree = "<group>"; };
+		EE3AC5D61A89374E007D117C /* adjustment_end.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = adjustment_end.wav; sourceTree = "<group>"; };
+		EE3AC5D71A89374E007D117C /* adjustment_move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = adjustment_move.wav; sourceTree = "<group>"; };
+		EE3AC5D81A89374E007D117C /* button_press.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button_press.wav; sourceTree = "<group>"; };
+		EE3AC5D91A89374E007D117C /* cell_move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cell_move.wav; sourceTree = "<group>"; };
+		EE3AC5DA1A89374E007D117C /* Da.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Da.wav; sourceTree = "<group>"; };
+		EE3AC5DB1A89374E007D117C /* Di.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Di.wav; sourceTree = "<group>"; };
+		EE3AC5DC1A89374E007D117C /* sound_button_click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_button_click.wav; sourceTree = "<group>"; };
+		EE3AC5DD1A89374E007D117C /* theme_choose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = theme_choose.wav; sourceTree = "<group>"; };
+		EE3AC5DE1A89374E007D117C /* torch_button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = torch_button.wav; sourceTree = "<group>"; };
+		EE4F47211A81E71F00EF2E43 /* Color_Adjuster_Bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color_Adjuster_Bg@2x.png"; sourceTree = "<group>"; };
+		EE4F47221A81E71F00EF2E43 /* Map_Button_Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Button_Close.png; sourceTree = "<group>"; };
+		EE4F47231A81E71F00EF2E43 /* Map_Button_LED_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Button_LED_Off.png; sourceTree = "<group>"; };
+		EE4F47241A81E71F00EF2E43 /* Map_Button_LED_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Button_LED_On.png; sourceTree = "<group>"; };
+		EE4F47251A81E71F00EF2E43 /* Map_Button_Locate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Button_Locate.png; sourceTree = "<group>"; };
+		EE4F47261A81E71F00EF2E43 /* Map_Button_Located.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Button_Located.png; sourceTree = "<group>"; };
+		EE4F47271A81E71F00EF2E43 /* Map_Button_Locating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Button_Locating.png; sourceTree = "<group>"; };
+		EE4F47281A81E71F00EF2E43 /* Map_Compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_Compass.png; sourceTree = "<group>"; };
+		EE4F47331A81E7E900EF2E43 /* Map_mask_last.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map_mask_last.png; sourceTree = "<group>"; };
+		EE4F47351A81E8B300EF2E43 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EE4F47371A81EDAD00EF2E43 /* ColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorController.h; sourceTree = "<group>"; };
+		EE4F47381A81EDAD00EF2E43 /* ColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorController.m; sourceTree = "<group>"; };
+		EE4F473A1A81EDC100EF2E43 /* MorseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseViewController.h; sourceTree = "<group>"; };
+		EE4F473B1A81EDC100EF2E43 /* MorseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseViewController.m; sourceTree = "<group>"; };
+		EE6459CC1A8A664E00638C25 /* WidgetColor_Color_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Color_highlighted.png; sourceTree = "<group>"; };
+		EE6459CD1A8A664E00638C25 /* WidgetColor_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Color.png; sourceTree = "<group>"; };
+		EE6459CE1A8A664E00638C25 /* WidgetColor_Compass_Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Compass_Active.png; sourceTree = "<group>"; };
+		EE6459CF1A8A664E00638C25 /* WidgetColor_Compass_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Compass_highlighted.png; sourceTree = "<group>"; };
+		EE6459D01A8A664E00638C25 /* WidgetColor_Compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Compass.png; sourceTree = "<group>"; };
+		EE6459D11A8A664E00638C25 /* WidgetColor_Flashlight_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Flashlight_highlighted.png; sourceTree = "<group>"; };
+		EE6459D21A8A664E00638C25 /* WidgetColor_Flashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Flashlight.png; sourceTree = "<group>"; };
+		EE6459D31A8A664E00638C25 /* WidgetColor_Morse_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Morse_highlighted.png; sourceTree = "<group>"; };
+		EE6459D41A8A664E00638C25 /* WidgetColor_Morse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_Morse.png; sourceTree = "<group>"; };
+		EE6459D51A8A664E00638C25 /* WidgetColor_SOS_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_SOS_highlighted.png; sourceTree = "<group>"; };
+		EE6459D61A8A664E00638C25 /* WidgetColor_SOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WidgetColor_SOS.png; sourceTree = "<group>"; };
+		EE6459E21A8A6A8900638C25 /* Flashlight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Flashlight.entitlements; sourceTree = "<group>"; };
+		EE6459E31A8A6AA800638C25 /* FlashLightToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FlashLightToday.entitlements; sourceTree = "<group>"; };
+		EE6DB4E51A8281730085A369 /* btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close@2x.png"; sourceTree = "<group>"; };
+		EE6DB4E61A8281730085A369 /* Color_Adjuster_Dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Color_Adjuster_Dot@2x.png"; sourceTree = "<group>"; };
+		EE6DBB891A69565800948356 /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6DBB8D1A69565800948356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6DBB8E1A69565800948356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE6DBB901A69565800948356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE6DBB911A69565800948356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE6DBB931A69565800948356 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE6DBB941A69565800948356 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE6DBB971A69565800948356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6DBB991A69565800948356 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE6DBB9C1A69565800948356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE6DBBA21A69565800948356 /* FlashlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6DBBA71A69565900948356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6DBBA81A69565900948356 /* FlashlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashlightTests.m; sourceTree = "<group>"; };
+		EE8839471A89480200D38067 /* FlashLightToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FlashLightToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8839491A89480200D38067 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		EE88394D1A89480200D38067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE88394E1A89480200D38067 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		EE88394F1A89480200D38067 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		EE8839511A89480200D38067 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		EEBEFEBC1A8C5E7F00D835B1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EEBEFEBE1A8C5E8800D835B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EEBEFEC01A8C5E8D00D835B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6DBB861A69565700948356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBEFEC11A8C5E8D00D835B1 /* QuartzCore.framework in Frameworks */,
+				EEBEFEBF1A8C5E8800D835B1 /* SystemConfiguration.framework in Frameworks */,
+				EEBEFEBD1A8C5E7F00D835B1 /* AudioToolbox.framework in Frameworks */,
+				EE4F47361A81E8B300EF2E43 /* MapKit.framework in Frameworks */,
+				EE1902EA1A81649100C549E9 /* Foundation.framework in Frameworks */,
+				EE1902E81A81648600C549E9 /* UIKit.framework in Frameworks */,
+				EE1902E61A81647C00C549E9 /* CoreGraphics.framework in Frameworks */,
+				EE1902E41A81647500C549E9 /* CoreLocation.framework in Frameworks */,
+				EE296C581A6CAC9F0056099A /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6DBB9F1A69565800948356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8839441A89480200D38067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBEFEBB1A8C533B00D835B1 /* CoreGraphics.framework in Frameworks */,
+				EE6459E41A8A74A100638C25 /* CoreLocation.framework in Frameworks */,
+				EE88394A1A89480200D38067 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2ECD781A6BF4B6004A9169 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE14EA141A8BCF62002BD8A1 /* widget_guide_bg@2x.png */,
+				EE14EA151A8BCF62002BD8A1 /* widget_guide_close_white@2x.png */,
+				EE14EA121A8BC473002BD8A1 /* Map_mask_last4@2x.png */,
+				EE6DB4E51A8281730085A369 /* btn_close@2x.png */,
+				EE6DB4E61A8281730085A369 /* Color_Adjuster_Dot@2x.png */,
+				EE322C0B1A825BFA0049CE9C /* MorseCode */,
+				EE322C071A82591C0049CE9C /* Morse_Button_Close@2x.png */,
+				EE322C081A82591C0049CE9C /* Morse_Button_Edit@2x.png */,
+				EE322C051A8251B40049CE9C /* Morse_Text_Mask@2x.png */,
+				EE322C011A82516A0049CE9C /* Morse_Button_Transmit.png */,
+				EE322C021A82516A0049CE9C /* Morse_Text_Mask_After@2x.png */,
+				EE4F47211A81E71F00EF2E43 /* Color_Adjuster_Bg@2x.png */,
+				EE4F47221A81E71F00EF2E43 /* Map_Button_Close.png */,
+				EE4F47231A81E71F00EF2E43 /* Map_Button_LED_Off.png */,
+				EE4F47241A81E71F00EF2E43 /* Map_Button_LED_On.png */,
+				EE4F47251A81E71F00EF2E43 /* Map_Button_Locate.png */,
+				EE4F47261A81E71F00EF2E43 /* Map_Button_Located.png */,
+				EE4F47271A81E71F00EF2E43 /* Map_Button_Locating.png */,
+				EE4F47281A81E71F00EF2E43 /* Map_Compass.png */,
+				EE4F47331A81E7E900EF2E43 /* Map_mask_last.png */,
+				EE1902E11A8131A800C549E9 /* mpoint.png */,
+				EE2ECD951A6BFF04004A9169 /* arc_rocket_highlight@2x.png */,
+				EE2ECD961A6BFF04004A9169 /* arc_rocket@2x.png */,
+				EE2ECD971A6BFF04004A9169 /* backgroundcover.png */,
+				EE2ECD981A6BFF04004A9169 /* brightness_adjustor_bg.png */,
+				EE2ECD991A6BFF04004A9169 /* button_down.png */,
+				EE2ECD9A1A6BFF04004A9169 /* button_up.png */,
+				EE2ECD9B1A6BFF04004A9169 /* color_clicked.png */,
+				EE2ECD9C1A6BFF04004A9169 /* color.png */,
+				EE2ECD9D1A6BFF04004A9169 /* Indicator_Off.png */,
+				EE2ECD9E1A6BFF04004A9169 /* Indicator_On.png */,
+				EE2ECD9F1A6BFF04004A9169 /* morse_clicked.png */,
+				EE2ECDA01A6BFF04004A9169 /* morse.png */,
+				EE2ECDAD1A6C0280004A9169 /* brightness_indicator.png */,
+				EE2ECDAF1A6C03A5004A9169 /* background.jpg */,
+				EE296C4F1A6CA0510056099A /* brightness_adjustor.png */,
+				EE296C511A6CA16C0056099A /* compass_background.png */,
+				EE296C521A6CA16C0056099A /* compass_cap.png */,
+				EE296C531A6CA16C0056099A /* compass.png */,
+				EE11C9D91A78AC4A00A079CA /* original_1.png */,
+				EE11C9DA1A78AC4A00A079CA /* original_2.png */,
+				EE11C9DB1A78AC4A00A079CA /* original_3.png */,
+				EE11C9DC1A78AC4A00A079CA /* original_4.png */,
+				EE11C9DD1A78AC4A00A079CA /* original_5.png */,
+				EE11C9DE1A78AC4A00A079CA /* original_6.png */,
+				EE11C9DF1A78AC4A00A079CA /* original_7.png */,
+				EE11C9E01A78AC4A00A079CA /* original_8.png */,
+				EE11C9E11A78AC4A00A079CA /* original_9.png */,
+				EE11C9E21A78AC4A00A079CA /* original_10.png */,
+				EE11C9E31A78AC4A00A079CA /* original_11.png */,
+				EE11C9E41A78AC4A00A079CA /* original_12.png */,
+				EE11C9E51A78AC4A00A079CA /* original_13.png */,
+				EE11C9E61A78AC4A00A079CA /* original_14.png */,
+				EE11C9E71A78AC4A00A079CA /* original_15.png */,
+				EE11C9E81A78AC4A00A079CA /* original_16.png */,
+				EE11C9E91A78AC4A00A079CA /* original_17.png */,
+				EE11C9EA1A78AC4A00A079CA /* original_18.png */,
+				EE11C9EB1A78AC4A00A079CA /* original_19.png */,
+				EE11C9EC1A78AC4A00A079CA /* original_20.png */,
+				EE11C9ED1A78AC4A00A079CA /* original_21.png */,
+				EE11C9EE1A78AC4A00A079CA /* original_22.png */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE322C0B1A825BFA0049CE9C /* MorseCode */ = {
+			isa = PBXGroup;
+			children = (
+				EE28C0AC1A832A420027837F /* Morse_Text_Bg@2x.jpg */,
+				EE28C0A01A8329200027837F /* morse_long_grey.png */,
+				EE28C0A11A8329200027837F /* morse_long.png */,
+				EE28C0A21A8329200027837F /* morse_short_grey.png */,
+				EE28C0A31A8329200027837F /* morse_short.png */,
+				EE28C0A41A8329200027837F /* morse_slash_grey.png */,
+				EE28C0A51A8329200027837F /* morse_slash.png */,
+				EE322C0C1A825BFA0049CE9C /* Morse_Text_0@2x.png */,
+				EE322C0D1A825BFA0049CE9C /* Morse_Text_0_gray@2x.png */,
+				EE322C0E1A825BFA0049CE9C /* Morse_Text_1@2x.png */,
+				EE322C0F1A825BFA0049CE9C /* Morse_Text_1_gray@2x.png */,
+				EE322C101A825BFA0049CE9C /* Morse_Text_2@2x.png */,
+				EE322C111A825BFA0049CE9C /* Morse_Text_2_gray@2x.png */,
+				EE322C121A825BFA0049CE9C /* Morse_Text_3@2x.png */,
+				EE322C131A825BFA0049CE9C /* Morse_Text_3_gray@2x.png */,
+				EE322C141A825BFA0049CE9C /* Morse_Text_4@2x.png */,
+				EE322C151A825BFA0049CE9C /* Morse_Text_4_gray@2x.png */,
+				EE322C161A825BFA0049CE9C /* Morse_Text_5@2x.png */,
+				EE322C171A825BFA0049CE9C /* Morse_Text_5_gray@2x.png */,
+				EE322C181A825BFA0049CE9C /* Morse_Text_6@2x.png */,
+				EE322C191A825BFA0049CE9C /* Morse_Text_6_gray@2x.png */,
+				EE322C1A1A825BFA0049CE9C /* Morse_Text_7@2x.png */,
+				EE322C1B1A825BFA0049CE9C /* Morse_Text_7_gray@2x.png */,
+				EE322C1C1A825BFA0049CE9C /* Morse_Text_8@2x.png */,
+				EE322C1D1A825BFA0049CE9C /* Morse_Text_8_gray@2x.png */,
+				EE322C1E1A825BFA0049CE9C /* Morse_Text_9@2x.png */,
+				EE322C1F1A825BFA0049CE9C /* Morse_Text_9_gray@2x.png */,
+				EE322C201A825BFA0049CE9C /* Morse_Text_A@2x.png */,
+				EE322C211A825BFA0049CE9C /* Morse_Text_A_gray@2x.png */,
+				EE322C221A825BFA0049CE9C /* Morse_Text_and@2x.png */,
+				EE322C231A825BFA0049CE9C /* Morse_Text_and_gray@2x.png */,
+				EE322C241A825BFA0049CE9C /* Morse_Text_at@2x.png */,
+				EE322C251A825BFA0049CE9C /* Morse_Text_at_gray@2x.png */,
+				EE322C261A825BFA0049CE9C /* Morse_Text_B@2x.png */,
+				EE322C271A825BFA0049CE9C /* Morse_Text_B_gray@2x.png */,
+				EE322C281A825BFA0049CE9C /* Morse_Text_C@2x.png */,
+				EE322C291A825BFA0049CE9C /* Morse_Text_C_gray@2x.png */,
+				EE322C2A1A825BFA0049CE9C /* Morse_Text_colon@2x.png */,
+				EE322C2B1A825BFA0049CE9C /* Morse_Text_colon_gray@2x.png */,
+				EE322C2C1A825BFA0049CE9C /* Morse_Text_comma@2x.png */,
+				EE322C2D1A825BFA0049CE9C /* Morse_Text_comma_gray@2x.png */,
+				EE322C2E1A825BFA0049CE9C /* Morse_Text_Cursor.png */,
+				EE322C2F1A825BFA0049CE9C /* Morse_Text_D@2x.png */,
+				EE322C301A825BFA0049CE9C /* Morse_Text_D_gray@2x.png */,
+				EE322C311A825BFA0049CE9C /* Morse_Text_dollar@2x.png */,
+				EE322C321A825BFA0049CE9C /* Morse_Text_dollar_gray@2x.png */,
+				EE322C331A825BFA0049CE9C /* Morse_Text_dot@2x.png */,
+				EE322C341A825BFA0049CE9C /* Morse_Text_dot_gray@2x.png */,
+				EE322C351A825BFA0049CE9C /* Morse_Text_E@2x.png */,
+				EE322C361A825BFA0049CE9C /* Morse_Text_E_gray@2x.png */,
+				EE322C371A825BFA0049CE9C /* Morse_Text_equal@2x.png */,
+				EE322C381A825BFB0049CE9C /* Morse_Text_equal_gray@2x.png */,
+				EE322C391A825BFB0049CE9C /* Morse_Text_exclamation@2x.png */,
+				EE322C3A1A825BFB0049CE9C /* Morse_Text_exclamation_gray@2x.png */,
+				EE322C3B1A825BFB0049CE9C /* Morse_Text_F@2x.png */,
+				EE322C3C1A825BFB0049CE9C /* Morse_Text_F_gray@2x.png */,
+				EE322C3D1A825BFB0049CE9C /* Morse_Text_G@2x.png */,
+				EE322C3E1A825BFB0049CE9C /* Morse_Text_G_gray@2x.png */,
+				EE322C3F1A825BFB0049CE9C /* Morse_Text_H@2x.png */,
+				EE322C401A825BFB0049CE9C /* Morse_Text_H_gray@2x.png */,
+				EE322C411A825BFB0049CE9C /* Morse_Text_I@2x.png */,
+				EE322C421A825BFB0049CE9C /* Morse_Text_I_gray@2x.png */,
+				EE322C431A825BFB0049CE9C /* Morse_Text_J@2x.png */,
+				EE322C441A825BFB0049CE9C /* Morse_Text_J_gray@2x.png */,
+				EE322C451A825BFB0049CE9C /* Morse_Text_K@2x.png */,
+				EE322C461A825BFB0049CE9C /* Morse_Text_K_gray@2x.png */,
+				EE322C471A825BFB0049CE9C /* Morse_Text_L@2x.png */,
+				EE322C481A825BFB0049CE9C /* Morse_Text_L_gray@2x.png */,
+				EE322C491A825BFB0049CE9C /* Morse_Text_left_bracket@2x.png */,
+				EE322C4A1A825BFB0049CE9C /* Morse_Text_left_bracket_gray@2x.png */,
+				EE322C4B1A825BFB0049CE9C /* Morse_Text_M@2x.png */,
+				EE322C4C1A825BFB0049CE9C /* Morse_Text_M_gray@2x.png */,
+				EE322C4D1A825BFB0049CE9C /* Morse_Text_minus@2x.png */,
+				EE322C4E1A825BFB0049CE9C /* Morse_Text_minus_gray@2x.png */,
+				EE322C4F1A825BFB0049CE9C /* Morse_Text_N@2x.png */,
+				EE322C501A825BFB0049CE9C /* Morse_Text_N_gray@2x.png */,
+				EE322C511A825BFB0049CE9C /* Morse_Text_O@2x.png */,
+				EE322C521A825BFB0049CE9C /* Morse_Text_O_gray@2x.png */,
+				EE322C531A825BFB0049CE9C /* Morse_Text_P@2x.png */,
+				EE322C541A825BFB0049CE9C /* Morse_Text_P_gray@2x.png */,
+				EE322C551A825BFB0049CE9C /* Morse_Text_Q@2x.png */,
+				EE322C561A825BFB0049CE9C /* Morse_Text_Q_gray@2x.png */,
+				EE322C571A825BFB0049CE9C /* Morse_Text_question@2x.png */,
+				EE322C581A825BFB0049CE9C /* Morse_Text_question_gray@2x.png */,
+				EE322C591A825BFB0049CE9C /* Morse_Text_quote@2x.png */,
+				EE322C5A1A825BFB0049CE9C /* Morse_Text_quote_gray@2x.png */,
+				EE322C5B1A825BFB0049CE9C /* Morse_Text_R@2x.png */,
+				EE322C5C1A825BFB0049CE9C /* Morse_Text_R_gray@2x.png */,
+				EE322C5D1A825BFB0049CE9C /* Morse_Text_right_bracket@2x.png */,
+				EE322C5E1A825BFB0049CE9C /* Morse_Text_right_bracket_gray@2x.png */,
+				EE322C5F1A825BFB0049CE9C /* Morse_Text_S@2x.png */,
+				EE322C601A825BFB0049CE9C /* Morse_Text_S_gray@2x.png */,
+				EE322C611A825BFB0049CE9C /* Morse_Text_semicolon@2x.png */,
+				EE322C621A825BFB0049CE9C /* Morse_Text_semicolon_gray@2x.png */,
+				EE322C631A825BFB0049CE9C /* Morse_Text_single_quote@2x.png */,
+				EE322C641A825BFB0049CE9C /* Morse_Text_single_quote_gray@2x.png */,
+				EE322C651A825BFB0049CE9C /* Morse_Text_slash@2x.png */,
+				EE322C661A825BFB0049CE9C /* Morse_Text_slash_gray@2x.png */,
+				EE322C671A825BFB0049CE9C /* Morse_Text_space@2x.png */,
+				EE322C681A825BFB0049CE9C /* Morse_Text_space_gray@2x.png */,
+				EE322C691A825BFB0049CE9C /* Morse_Text_T@2x.png */,
+				EE322C6A1A825BFB0049CE9C /* Morse_Text_T_gray@2x.png */,
+				EE322C6B1A825BFB0049CE9C /* Morse_Text_U@2x.png */,
+				EE322C6C1A825BFB0049CE9C /* Morse_Text_U_gray@2x.png */,
+				EE322C6D1A825BFB0049CE9C /* Morse_Text_underline@2x.png */,
+				EE322C6E1A825BFB0049CE9C /* Morse_Text_underline_gray@2x.png */,
+				EE322C6F1A825BFB0049CE9C /* Morse_Text_V@2x.png */,
+				EE322C701A825BFB0049CE9C /* Morse_Text_V_gray@2x.png */,
+				EE322C711A825BFB0049CE9C /* Morse_Text_W@2x.png */,
+				EE322C721A825BFB0049CE9C /* Morse_Text_W_gray@2x.png */,
+				EE322C731A825BFB0049CE9C /* Morse_Text_X@2x.png */,
+				EE322C741A825BFB0049CE9C /* Morse_Text_X_gray@2x.png */,
+				EE322C751A825BFB0049CE9C /* Morse_Text_Y@2x.png */,
+				EE322C761A825BFB0049CE9C /* Morse_Text_Y_gray@2x.png */,
+				EE322C771A825BFB0049CE9C /* Morse_Text_Z@2x.png */,
+				EE322C781A825BFB0049CE9C /* Morse_Text_Z_gray@2x.png */,
+			);
+			path = MorseCode;
+			sourceTree = "<group>";
+		};
+		EE3AC5D51A89374E007D117C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EE3AC5D61A89374E007D117C /* adjustment_end.wav */,
+				EE3AC5D71A89374E007D117C /* adjustment_move.wav */,
+				EE3AC5D81A89374E007D117C /* button_press.wav */,
+				EE3AC5D91A89374E007D117C /* cell_move.wav */,
+				EE3AC5DA1A89374E007D117C /* Da.wav */,
+				EE3AC5DB1A89374E007D117C /* Di.wav */,
+				EE3AC5DC1A89374E007D117C /* sound_button_click.wav */,
+				EE3AC5DD1A89374E007D117C /* theme_choose.wav */,
+				EE3AC5DE1A89374E007D117C /* torch_button.wav */,
+			);
+			path = Sounds;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE6DBB801A69565700948356 = {
+			isa = PBXGroup;
+			children = (
+				EE4F47351A81E8B300EF2E43 /* MapKit.framework */,
+				EE1902E91A81649100C549E9 /* Foundation.framework */,
+				EE1902E71A81648600C549E9 /* UIKit.framework */,
+				EE1902E51A81647C00C549E9 /* CoreGraphics.framework */,
+				EE1902E31A81647500C549E9 /* CoreLocation.framework */,
+				EE296C571A6CAC9F0056099A /* AVFoundation.framework */,
+				EE6DBB8B1A69565800948356 /* Flashlight */,
+				EE6DBBA51A69565800948356 /* FlashlightTests */,
+				EE88394B1A89480200D38067 /* FlashLightToday */,
+				EE8839481A89480200D38067 /* Frameworks */,
+				EE6DBB8A1A69565800948356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6DBB8A1A69565800948356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6DBB891A69565800948356 /* Flashlight.app */,
+				EE6DBBA21A69565800948356 /* FlashlightTests.xctest */,
+				EE8839471A89480200D38067 /* FlashLightToday.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6DBB8B1A69565800948356 /* Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				EE6459E21A8A6A8900638C25 /* Flashlight.entitlements */,
+				EE2ECD781A6BF4B6004A9169 /* Images */,
+				EE6DBB901A69565800948356 /* AppDelegate.h */,
+				EE6DBB911A69565800948356 /* AppDelegate.m */,
+				EE6DBB931A69565800948356 /* ViewController.h */,
+				EE6DBB941A69565800948356 /* ViewController.m */,
+				EE4F47371A81EDAD00EF2E43 /* ColorController.h */,
+				EE4F47381A81EDAD00EF2E43 /* ColorController.m */,
+				EE4F473A1A81EDC100EF2E43 /* MorseViewController.h */,
+				EE4F473B1A81EDC100EF2E43 /* MorseViewController.m */,
+				EE6DBB961A69565800948356 /* Main.storyboard */,
+				EE14EA0C1A8BC0A7002BD8A1 /* Main4.storyboard */,
+				EE14EA0F1A8BC32B002BD8A1 /* MainiPad.storyboard */,
+				EE6DBB991A69565800948356 /* Images.xcassets */,
+				EE6DBB9B1A69565800948356 /* LaunchScreen.xib */,
+				EE3AC5D51A89374E007D117C /* Sounds */,
+				EE6DBB8C1A69565800948356 /* Supporting Files */,
+			);
+			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		EE6DBB8C1A69565800948356 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE322BFF1A8250670049CE9C /* MorseCodes.plist */,
+				EE6DBB8D1A69565800948356 /* Info.plist */,
+				EE6DBB8E1A69565800948356 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE6DBBA51A69565800948356 /* FlashlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6DBBA81A69565900948356 /* FlashlightTests.m */,
+				EE6DBBA61A69565900948356 /* Supporting Files */,
+			);
+			path = FlashlightTests;
+			sourceTree = "<group>";
+		};
+		EE6DBBA61A69565900948356 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE6DBBA71A69565900948356 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8839481A89480200D38067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEBEFEC01A8C5E8D00D835B1 /* QuartzCore.framework */,
+				EEBEFEBE1A8C5E8800D835B1 /* SystemConfiguration.framework */,
+				EEBEFEBC1A8C5E7F00D835B1 /* AudioToolbox.framework */,
+				EE8839491A89480200D38067 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE88394B1A89480200D38067 /* FlashLightToday */ = {
+			isa = PBXGroup;
+			children = (
+				EE6459E31A8A6AA800638C25 /* FlashLightToday.entitlements */,
+				EE88394E1A89480200D38067 /* TodayViewController.h */,
+				EE88394F1A89480200D38067 /* TodayViewController.m */,
+				EE8839511A89480200D38067 /* MainInterface.storyboard */,
+				EE88394C1A89480200D38067 /* Supporting Files */,
+			);
+			path = FlashLightToday;
+			sourceTree = "<group>";
+		};
+		EE88394C1A89480200D38067 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE6459CC1A8A664E00638C25 /* WidgetColor_Color_highlighted.png */,
+				EE6459CD1A8A664E00638C25 /* WidgetColor_Color.png */,
+				EE6459CE1A8A664E00638C25 /* WidgetColor_Compass_Active.png */,
+				EE6459CF1A8A664E00638C25 /* WidgetColor_Compass_highlighted.png */,
+				EE6459D01A8A664E00638C25 /* WidgetColor_Compass.png */,
+				EE6459D11A8A664E00638C25 /* WidgetColor_Flashlight_highlighted.png */,
+				EE6459D21A8A664E00638C25 /* WidgetColor_Flashlight.png */,
+				EE6459D31A8A664E00638C25 /* WidgetColor_Morse_highlighted.png */,
+				EE6459D41A8A664E00638C25 /* WidgetColor_Morse.png */,
+				EE6459D51A8A664E00638C25 /* WidgetColor_SOS_highlighted.png */,
+				EE6459D61A8A664E00638C25 /* WidgetColor_SOS.png */,
+				EE88394D1A89480200D38067 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6DBB881A69565700948356 /* Flashlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6DBBAC1A69565900948356 /* Build configuration list for PBXNativeTarget "Flashlight" */;
+			buildPhases = (
+				EE6DBB851A69565700948356 /* Sources */,
+				EE6DBB861A69565700948356 /* Frameworks */,
+				EE6DBB871A69565700948356 /* Resources */,
+				EE8839591A89480200D38067 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8839541A89480200D38067 /* PBXTargetDependency */,
+			);
+			name = Flashlight;
+			productName = Flashlight;
+			productReference = EE6DBB891A69565800948356 /* Flashlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6DBBA11A69565800948356 /* FlashlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6DBBAF1A69565900948356 /* Build configuration list for PBXNativeTarget "FlashlightTests" */;
+			buildPhases = (
+				EE6DBB9E1A69565800948356 /* Sources */,
+				EE6DBB9F1A69565800948356 /* Frameworks */,
+				EE6DBBA01A69565800948356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6DBBA41A69565800948356 /* PBXTargetDependency */,
+			);
+			name = FlashlightTests;
+			productName = FlashlightTests;
+			productReference = EE6DBBA21A69565800948356 /* FlashlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE8839461A89480200D38067 /* FlashLightToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8839561A89480200D38067 /* Build configuration list for PBXNativeTarget "FlashLightToday" */;
+			buildPhases = (
+				EE8839431A89480200D38067 /* Sources */,
+				EE8839441A89480200D38067 /* Frameworks */,
+				EE8839451A89480200D38067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashLightToday;
+			productName = FlashLightToday;
+			productReference = EE8839471A89480200D38067 /* FlashLightToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6DBB811A69565700948356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.tinykeyboard.customkeyboard;
+				TargetAttributes = {
+					EE6DBB881A69565700948356 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = JVMRJB3Z8H;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EE6DBBA11A69565800948356 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EE6DBB881A69565700948356;
+					};
+					EE8839461A89480200D38067 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = JVMRJB3Z8H;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EE6DBB841A69565700948356 /* Build configuration list for PBXProject "Flashlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6DBB801A69565700948356;
+			productRefGroup = EE6DBB8A1A69565800948356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6DBB881A69565700948356 /* Flashlight */,
+				EE6DBBA11A69565800948356 /* FlashlightTests */,
+				EE8839461A89480200D38067 /* FlashLightToday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6DBB871A69565700948356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE296C501A6CA0510056099A /* brightness_adjustor.png in Resources */,
+				EE322CE21A825BFB0049CE9C /* Morse_Text_Y@2x.png in Resources */,
+				EE28C0AA1A8329200027837F /* morse_slash_grey.png in Resources */,
+				EE322C791A825BFB0049CE9C /* Morse_Text_0@2x.png in Resources */,
+				EE322CAC1A825BFB0049CE9C /* Morse_Text_H@2x.png in Resources */,
+				EE322CC81A825BFB0049CE9C /* Morse_Text_R@2x.png in Resources */,
+				EE2ECDAE1A6C0280004A9169 /* brightness_indicator.png in Resources */,
+				EE322CC11A825BFB0049CE9C /* Morse_Text_P_gray@2x.png in Resources */,
+				EE322CDD1A825BFB0049CE9C /* Morse_Text_V_gray@2x.png in Resources */,
+				EE4F47301A81E71F00EF2E43 /* Map_Button_Locating.png in Resources */,
+				EE11C9FA1A78AC4A00A079CA /* original_12.png in Resources */,
+				EE28C0A81A8329200027837F /* morse_short_grey.png in Resources */,
+				EE4F472C1A81E71F00EF2E43 /* Map_Button_LED_Off.png in Resources */,
+				EE322C7B1A825BFB0049CE9C /* Morse_Text_1@2x.png in Resources */,
+				EE322C921A825BFB0049CE9C /* Morse_Text_at_gray@2x.png in Resources */,
+				EE3AC5DF1A89374E007D117C /* adjustment_end.wav in Resources */,
+				EE14EA161A8BCF62002BD8A1 /* widget_guide_bg@2x.png in Resources */,
+				EE322CD61A825BFB0049CE9C /* Morse_Text_T@2x.png in Resources */,
+				EE296C541A6CA16C0056099A /* compass_background.png in Resources */,
+				EE322CD41A825BFB0049CE9C /* Morse_Text_space@2x.png in Resources */,
+				EE3AC5E01A89374E007D117C /* adjustment_move.wav in Resources */,
+				EE14EA131A8BC473002BD8A1 /* Map_mask_last4@2x.png in Resources */,
+				EE322C961A825BFB0049CE9C /* Morse_Text_C_gray@2x.png in Resources */,
+				EE2ECDAB1A6BFF04004A9169 /* morse_clicked.png in Resources */,
+				EE11C9F71A78AC4A00A079CA /* original_9.png in Resources */,
+				EE322CBF1A825BFB0049CE9C /* Morse_Text_O_gray@2x.png in Resources */,
+				EE322CC51A825BFB0049CE9C /* Morse_Text_question_gray@2x.png in Resources */,
+				EE322CC21A825BFB0049CE9C /* Morse_Text_Q@2x.png in Resources */,
+				EE11C9FF1A78AC4A00A079CA /* original_17.png in Resources */,
+				EE322C7D1A825BFB0049CE9C /* Morse_Text_2@2x.png in Resources */,
+				EE322CD21A825BFB0049CE9C /* Morse_Text_slash@2x.png in Resources */,
+				EE322CCE1A825BFB0049CE9C /* Morse_Text_semicolon@2x.png in Resources */,
+				EE296C561A6CA16C0056099A /* compass.png in Resources */,
+				EE322CD51A825BFB0049CE9C /* Morse_Text_space_gray@2x.png in Resources */,
+				EE322C7C1A825BFB0049CE9C /* Morse_Text_1_gray@2x.png in Resources */,
+				EE3AC5E71A89374E007D117C /* torch_button.wav in Resources */,
+				EE2ECDA11A6BFF04004A9169 /* arc_rocket_highlight@2x.png in Resources */,
+				EE322CD71A825BFB0049CE9C /* Morse_Text_T_gray@2x.png in Resources */,
+				EE11C9EF1A78AC4A00A079CA /* original_1.png in Resources */,
+				EE14EA111A8BC32B002BD8A1 /* MainiPad.storyboard in Resources */,
+				EE322C991A825BFB0049CE9C /* Morse_Text_comma@2x.png in Resources */,
+				EE2ECDA61A6BFF04004A9169 /* button_up.png in Resources */,
+				EE322C9D1A825BFB0049CE9C /* Morse_Text_D_gray@2x.png in Resources */,
+				EE322CE01A825BFB0049CE9C /* Morse_Text_X@2x.png in Resources */,
+				EE322C811A825BFB0049CE9C /* Morse_Text_4@2x.png in Resources */,
+				EE6DBB981A69565800948356 /* Main.storyboard in Resources */,
+				EE6DB4E81A8281730085A369 /* Color_Adjuster_Dot@2x.png in Resources */,
+				EE322CA61A825BFB0049CE9C /* Morse_Text_exclamation@2x.png in Resources */,
+				EE322C901A825BFB0049CE9C /* Morse_Text_and_gray@2x.png in Resources */,
+				EE11C9F21A78AC4A00A079CA /* original_4.png in Resources */,
+				EE11C9FB1A78AC4A00A079CA /* original_13.png in Resources */,
+				EE14EA171A8BCF62002BD8A1 /* widget_guide_close_white@2x.png in Resources */,
+				EE3AC5E61A89374E007D117C /* theme_choose.wav in Resources */,
+				EE322CB21A825BFB0049CE9C /* Morse_Text_K@2x.png in Resources */,
+				EE2ECDA91A6BFF04004A9169 /* Indicator_Off.png in Resources */,
+				EE2ECDA71A6BFF04004A9169 /* color_clicked.png in Resources */,
+				EE322C9B1A825BFB0049CE9C /* Morse_Text_Cursor.png in Resources */,
+				EE322CA11A825BFB0049CE9C /* Morse_Text_dot_gray@2x.png in Resources */,
+				EE322C001A8250670049CE9C /* MorseCodes.plist in Resources */,
+				EE322C871A825BFB0049CE9C /* Morse_Text_7@2x.png in Resources */,
+				EE28C0A91A8329200027837F /* morse_short.png in Resources */,
+				EE322CB61A825BFB0049CE9C /* Morse_Text_left_bracket@2x.png in Resources */,
+				EE11C9F61A78AC4A00A079CA /* original_8.png in Resources */,
+				EE322C951A825BFB0049CE9C /* Morse_Text_C@2x.png in Resources */,
+				EE322CC71A825BFB0049CE9C /* Morse_Text_quote_gray@2x.png in Resources */,
+				EE322CC31A825BFB0049CE9C /* Morse_Text_Q_gray@2x.png in Resources */,
+				EE3AC5E11A89374E007D117C /* button_press.wav in Resources */,
+				EE322C7E1A825BFB0049CE9C /* Morse_Text_2_gray@2x.png in Resources */,
+				EE2ECDA21A6BFF04004A9169 /* arc_rocket@2x.png in Resources */,
+				EE322CAE1A825BFB0049CE9C /* Morse_Text_I@2x.png in Resources */,
+				EE322C8F1A825BFB0049CE9C /* Morse_Text_and@2x.png in Resources */,
+				EE11C9F41A78AC4A00A079CA /* original_6.png in Resources */,
+				EE322C841A825BFB0049CE9C /* Morse_Text_5_gray@2x.png in Resources */,
+				EE322CCD1A825BFB0049CE9C /* Morse_Text_S_gray@2x.png in Resources */,
+				EE322C091A82591C0049CE9C /* Morse_Button_Close@2x.png in Resources */,
+				EE322CB51A825BFB0049CE9C /* Morse_Text_L_gray@2x.png in Resources */,
+				EE322C0A1A82591C0049CE9C /* Morse_Button_Edit@2x.png in Resources */,
+				EE322CE41A825BFB0049CE9C /* Morse_Text_Z@2x.png in Resources */,
+				EE4F472A1A81E71F00EF2E43 /* Color_Adjuster_Bg@2x.png in Resources */,
+				EE322CBB1A825BFB0049CE9C /* Morse_Text_minus_gray@2x.png in Resources */,
+				EE2ECDA31A6BFF04004A9169 /* backgroundcover.png in Resources */,
+				EE322C931A825BFB0049CE9C /* Morse_Text_B@2x.png in Resources */,
+				EE322C9F1A825BFB0049CE9C /* Morse_Text_dollar_gray@2x.png in Resources */,
+				EE6DB4E71A8281730085A369 /* btn_close@2x.png in Resources */,
+				EE11CA001A78AC4A00A079CA /* original_18.png in Resources */,
+				EE322CBE1A825BFB0049CE9C /* Morse_Text_O@2x.png in Resources */,
+				EE322C061A8251B40049CE9C /* Morse_Text_Mask@2x.png in Resources */,
+				EE322CC91A825BFB0049CE9C /* Morse_Text_R_gray@2x.png in Resources */,
+				EE322C031A82516A0049CE9C /* Morse_Button_Transmit.png in Resources */,
+				EE11CA021A78AC4A00A079CA /* original_20.png in Resources */,
+				EE14EA0E1A8BC0A7002BD8A1 /* Main4.storyboard in Resources */,
+				EE322C801A825BFB0049CE9C /* Morse_Text_3_gray@2x.png in Resources */,
+				EE11C9FE1A78AC4A00A079CA /* original_16.png in Resources */,
+				EE2ECDA41A6BFF04004A9169 /* brightness_adjustor_bg.png in Resources */,
+				EE11CA041A78AC4A00A079CA /* original_22.png in Resources */,
+				EE322CCB1A825BFB0049CE9C /* Morse_Text_right_bracket_gray@2x.png in Resources */,
+				EE322CD91A825BFB0049CE9C /* Morse_Text_U_gray@2x.png in Resources */,
+				EE322CDB1A825BFB0049CE9C /* Morse_Text_underline_gray@2x.png in Resources */,
+				EE322CA41A825BFB0049CE9C /* Morse_Text_equal@2x.png in Resources */,
+				EE322C8D1A825BFB0049CE9C /* Morse_Text_A@2x.png in Resources */,
+				EE322CBD1A825BFB0049CE9C /* Morse_Text_N_gray@2x.png in Resources */,
+				EE2ECDA51A6BFF04004A9169 /* button_down.png in Resources */,
+				EE322C8A1A825BFB0049CE9C /* Morse_Text_8_gray@2x.png in Resources */,
+				EE2ECDB01A6C03A5004A9169 /* background.jpg in Resources */,
+				EE322CA71A825BFB0049CE9C /* Morse_Text_exclamation_gray@2x.png in Resources */,
+				EE322CC61A825BFB0049CE9C /* Morse_Text_quote@2x.png in Resources */,
+				EE322CB11A825BFB0049CE9C /* Morse_Text_J_gray@2x.png in Resources */,
+				EE3AC5E41A89374E007D117C /* Di.wav in Resources */,
+				EE322CA01A825BFB0049CE9C /* Morse_Text_dot@2x.png in Resources */,
+				EE11C9F81A78AC4A00A079CA /* original_10.png in Resources */,
+				EE322CDC1A825BFB0049CE9C /* Morse_Text_V@2x.png in Resources */,
+				EE322CA91A825BFB0049CE9C /* Morse_Text_F_gray@2x.png in Resources */,
+				EE322CA31A825BFB0049CE9C /* Morse_Text_E_gray@2x.png in Resources */,
+				EE4F47341A81E7E900EF2E43 /* Map_mask_last.png in Resources */,
+				EE322CAA1A825BFB0049CE9C /* Morse_Text_G@2x.png in Resources */,
+				EE322C971A825BFB0049CE9C /* Morse_Text_colon@2x.png in Resources */,
+				EE322CBA1A825BFB0049CE9C /* Morse_Text_minus@2x.png in Resources */,
+				EE11C9F11A78AC4A00A079CA /* original_3.png in Resources */,
+				EE322C911A825BFB0049CE9C /* Morse_Text_at@2x.png in Resources */,
+				EE2ECDAA1A6BFF04004A9169 /* Indicator_On.png in Resources */,
+				EE322C9C1A825BFB0049CE9C /* Morse_Text_D@2x.png in Resources */,
+				EE322C7F1A825BFB0049CE9C /* Morse_Text_3@2x.png in Resources */,
+				EE2ECDAC1A6BFF04004A9169 /* morse.png in Resources */,
+				EE322C9A1A825BFB0049CE9C /* Morse_Text_comma_gray@2x.png in Resources */,
+				EE4F472D1A81E71F00EF2E43 /* Map_Button_LED_On.png in Resources */,
+				EE11C9F91A78AC4A00A079CA /* original_11.png in Resources */,
+				EE322CD11A825BFB0049CE9C /* Morse_Text_single_quote_gray@2x.png in Resources */,
+				EE322CB41A825BFB0049CE9C /* Morse_Text_L@2x.png in Resources */,
+				EE322CE31A825BFB0049CE9C /* Morse_Text_Y_gray@2x.png in Resources */,
+				EE322C881A825BFB0049CE9C /* Morse_Text_7_gray@2x.png in Resources */,
+				EE322CB31A825BFB0049CE9C /* Morse_Text_K_gray@2x.png in Resources */,
+				EE4F472F1A81E71F00EF2E43 /* Map_Button_Located.png in Resources */,
+				EE322C8C1A825BFB0049CE9C /* Morse_Text_9_gray@2x.png in Resources */,
+				EE322C8E1A825BFB0049CE9C /* Morse_Text_A_gray@2x.png in Resources */,
+				EE4F472B1A81E71F00EF2E43 /* Map_Button_Close.png in Resources */,
+				EE1902E21A8131A800C549E9 /* mpoint.png in Resources */,
+				EE11C9FC1A78AC4A00A079CA /* original_14.png in Resources */,
+				EE322C891A825BFB0049CE9C /* Morse_Text_8@2x.png in Resources */,
+				EE322C851A825BFB0049CE9C /* Morse_Text_6@2x.png in Resources */,
+				EE322CD31A825BFB0049CE9C /* Morse_Text_slash_gray@2x.png in Resources */,
+				EE322CA81A825BFB0049CE9C /* Morse_Text_F@2x.png in Resources */,
+				EE4F472E1A81E71F00EF2E43 /* Map_Button_Locate.png in Resources */,
+				EE11C9F31A78AC4A00A079CA /* original_5.png in Resources */,
+				EE322CE11A825BFB0049CE9C /* Morse_Text_X_gray@2x.png in Resources */,
+				EE322CDE1A825BFB0049CE9C /* Morse_Text_W@2x.png in Resources */,
+				EE322CC41A825BFB0049CE9C /* Morse_Text_question@2x.png in Resources */,
+				EE11CA011A78AC4A00A079CA /* original_19.png in Resources */,
+				EE322CA51A825BFB0049CE9C /* Morse_Text_equal_gray@2x.png in Resources */,
+				EE6DBB9D1A69565800948356 /* LaunchScreen.xib in Resources */,
+				EE322CAF1A825BFB0049CE9C /* Morse_Text_I_gray@2x.png in Resources */,
+				EE322CAB1A825BFB0049CE9C /* Morse_Text_G_gray@2x.png in Resources */,
+				EE322CD01A825BFB0049CE9C /* Morse_Text_single_quote@2x.png in Resources */,
+				EE28C0A71A8329200027837F /* morse_long.png in Resources */,
+				EE322C941A825BFB0049CE9C /* Morse_Text_B_gray@2x.png in Resources */,
+				EE322C041A82516A0049CE9C /* Morse_Text_Mask_After@2x.png in Resources */,
+				EE322CE51A825BFB0049CE9C /* Morse_Text_Z_gray@2x.png in Resources */,
+				EE322C821A825BFB0049CE9C /* Morse_Text_4_gray@2x.png in Resources */,
+				EE28C0AB1A8329200027837F /* morse_slash.png in Resources */,
+				EE3AC5E21A89374E007D117C /* cell_move.wav in Resources */,
+				EE11CA031A78AC4A00A079CA /* original_21.png in Resources */,
+				EE322CB91A825BFB0049CE9C /* Morse_Text_M_gray@2x.png in Resources */,
+				EE322CD81A825BFB0049CE9C /* Morse_Text_U@2x.png in Resources */,
+				EE4F47311A81E71F00EF2E43 /* Map_Compass.png in Resources */,
+				EE322C9E1A825BFB0049CE9C /* Morse_Text_dollar@2x.png in Resources */,
+				EE2ECDA81A6BFF04004A9169 /* color.png in Resources */,
+				EE322CDA1A825BFB0049CE9C /* Morse_Text_underline@2x.png in Resources */,
+				EE11C9F51A78AC4A00A079CA /* original_7.png in Resources */,
+				EE322C861A825BFB0049CE9C /* Morse_Text_6_gray@2x.png in Resources */,
+				EE322CA21A825BFB0049CE9C /* Morse_Text_E@2x.png in Resources */,
+				EE11C9FD1A78AC4A00A079CA /* original_15.png in Resources */,
+				EE322CAD1A825BFB0049CE9C /* Morse_Text_H_gray@2x.png in Resources */,
+				EE322C7A1A825BFB0049CE9C /* Morse_Text_0_gray@2x.png in Resources */,
+				EE28C0A61A8329200027837F /* morse_long_grey.png in Resources */,
+				EE322CBC1A825BFB0049CE9C /* Morse_Text_N@2x.png in Resources */,
+				EE6DBB9A1A69565800948356 /* Images.xcassets in Resources */,
+				EE322CB71A825BFB0049CE9C /* Morse_Text_left_bracket_gray@2x.png in Resources */,
+				EE322CCC1A825BFB0049CE9C /* Morse_Text_S@2x.png in Resources */,
+				EE3AC5E31A89374E007D117C /* Da.wav in Resources */,
+				EE3AC5E51A89374E007D117C /* sound_button_click.wav in Resources */,
+				EE322CDF1A825BFB0049CE9C /* Morse_Text_W_gray@2x.png in Resources */,
+				EE322CB81A825BFB0049CE9C /* Morse_Text_M@2x.png in Resources */,
+				EE322C8B1A825BFB0049CE9C /* Morse_Text_9@2x.png in Resources */,
+				EE322C981A825BFB0049CE9C /* Morse_Text_colon_gray@2x.png in Resources */,
+				EE296C551A6CA16C0056099A /* compass_cap.png in Resources */,
+				EE322C831A825BFB0049CE9C /* Morse_Text_5@2x.png in Resources */,
+				EE11C9F01A78AC4A00A079CA /* original_2.png in Resources */,
+				EE322CCF1A825BFB0049CE9C /* Morse_Text_semicolon_gray@2x.png in Resources */,
+				EE322CCA1A825BFB0049CE9C /* Morse_Text_right_bracket@2x.png in Resources */,
+				EE322CB01A825BFB0049CE9C /* Morse_Text_J@2x.png in Resources */,
+				EE28C0AD1A832A420027837F /* Morse_Text_Bg@2x.jpg in Resources */,
+				EE322CC01A825BFB0049CE9C /* Morse_Text_P@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6DBBA01A69565800948356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8839451A89480200D38067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6459DC1A8A664E00638C25 /* WidgetColor_Flashlight_highlighted.png in Resources */,
+				EE6459DA1A8A664E00638C25 /* WidgetColor_Compass_highlighted.png in Resources */,
+				EE6459D91A8A664E00638C25 /* WidgetColor_Compass_Active.png in Resources */,
+				EE6459D81A8A664E00638C25 /* WidgetColor_Color.png in Resources */,
+				EE6459DF1A8A664E00638C25 /* WidgetColor_Morse.png in Resources */,
+				EE6459E11A8A664E00638C25 /* WidgetColor_SOS.png in Resources */,
+				EE8839521A89480200D38067 /* MainInterface.storyboard in Resources */,
+				EE6459DD1A8A664E00638C25 /* WidgetColor_Flashlight.png in Resources */,
+				EE6459DB1A8A664E00638C25 /* WidgetColor_Compass.png in Resources */,
+				EE6459E01A8A664E00638C25 /* WidgetColor_SOS_highlighted.png in Resources */,
+				EE6459DE1A8A664E00638C25 /* WidgetColor_Morse_highlighted.png in Resources */,
+				EE6459D71A8A664E00638C25 /* WidgetColor_Color_highlighted.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6DBB851A69565700948356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6DBB951A69565800948356 /* ViewController.m in Sources */,
+				EE4F473C1A81EDC100EF2E43 /* MorseViewController.m in Sources */,
+				EE6DBB921A69565800948356 /* AppDelegate.m in Sources */,
+				EE6DBB8F1A69565800948356 /* main.m in Sources */,
+				EE4F47391A81EDAD00EF2E43 /* ColorController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6DBB9E1A69565800948356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6DBBA91A69565900948356 /* FlashlightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8839431A89480200D38067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8839501A89480200D38067 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6DBBA41A69565800948356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6DBB881A69565700948356 /* Flashlight */;
+			targetProxy = EE6DBBA31A69565800948356 /* PBXContainerItemProxy */;
+		};
+		EE8839541A89480200D38067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8839461A89480200D38067 /* FlashLightToday */;
+			targetProxy = EE8839531A89480200D38067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE14EA0C1A8BC0A7002BD8A1 /* Main4.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE14EA0D1A8BC0A7002BD8A1 /* Base */,
+			);
+			name = Main4.storyboard;
+			sourceTree = "<group>";
+		};
+		EE14EA0F1A8BC32B002BD8A1 /* MainiPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE14EA101A8BC32B002BD8A1 /* Base */,
+			);
+			name = MainiPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6DBB961A69565800948356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6DBB971A69565800948356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6DBB9B1A69565800948356 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6DBB9C1A69565800948356 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6DBBAA1A69565900948356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6DBBAB1A69565900948356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6DBBAD1A69565900948356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Flashlight/Flashlight.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				INFOPLIST_FILE = Flashlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90a8b0f9-1e35-43aa-abf0-1b8d48da6884";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE6DBBAE1A69565900948356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Flashlight/Flashlight.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				INFOPLIST_FILE = Flashlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90a8b0f9-1e35-43aa-abf0-1b8d48da6884";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EE6DBBB01A69565900948356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
+			};
+			name = Debug;
+		};
+		EE6DBBB11A69565900948356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
+			};
+			name = Release;
+		};
+		EE8839571A89480200D38067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FlashLightToday/FlashLightToday.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashLightToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a25b5bb2-367b-4912-9db0-7b625ac03bd4";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE8839581A89480200D38067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FlashLightToday/FlashLightToday.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Khaled Alhattami (8CRJY6KKNL)";
+				INFOPLIST_FILE = FlashLightToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a25b5bb2-367b-4912-9db0-7b625ac03bd4";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6DBB841A69565700948356 /* Build configuration list for PBXProject "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6DBBAA1A69565900948356 /* Debug */,
+				EE6DBBAB1A69565900948356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6DBBAC1A69565900948356 /* Build configuration list for PBXNativeTarget "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6DBBAD1A69565900948356 /* Debug */,
+				EE6DBBAE1A69565900948356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6DBBAF1A69565900948356 /* Build configuration list for PBXNativeTarget "FlashlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6DBBB01A69565900948356 /* Debug */,
+				EE6DBBB11A69565900948356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8839561A89480200D38067 /* Build configuration list for PBXNativeTarget "FlashLightToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8839571A89480200D38067 /* Debug */,
+				EE8839581A89480200D38067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6DBB811A69565700948356 /* Project object */;
+}

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="dFa-jN-Dpf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Oiv-RB-KYZ">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="dFa-jN-Dpf" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9MS-ez-ojy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mnU-WX-bMk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qq3-jw-dYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182.40000000000001" y="85.200000000000003"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="mainview" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" id="T5e-jY-jEF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundcover.png" id="Pe7-og-Mxh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brightness_adjustor_bg.png" id="W8J-Dr-Fz2">
+                                <rect key="frame" x="35" y="254" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="color.png" id="Wob-47-xn0">
+                                <rect key="frame" x="58" y="377" width="102" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morse.png" id="tpd-Zz-JwD">
+                                <rect key="frame" x="159" y="377" width="102" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arc_rocket.png" id="25a-m5-GJ9">
+                                <rect key="frame" x="122" y="377" width="76" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brightness_indicator.png" id="wll-g7-v9z">
+                                <rect key="frame" x="60" y="281" width="200" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass_background.png" id="VCr-Mi-Dwd">
+                                <rect key="frame" x="118" y="163" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass_cap.png" id="ZCD-R1-OoS">
+                                <rect key="frame" x="118" y="163" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Indicator_Off.png" id="l6s-TQ-CSo">
+                                <rect key="frame" x="135" y="105" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="wqa-fd-kwx">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="AOd-sc-zE1"/>
+                                </connections>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_up.png" id="jtX-kO-raw">
+                                <rect key="frame" x="89" y="307" width="143" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Tk-Jz-oBq">
+                                <rect key="frame" x="61" y="279" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WTL-5J-xda">
+                                <rect key="frame" x="79" y="297" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X9i-kt-SKz">
+                                <rect key="frame" x="102" y="320" width="117" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arc_rocket_highlight.png" id="8Ku-03-kyu">
+                                <rect key="frame" x="136" y="445" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mpoint.png" id="ogt-jA-fom">
+                                <rect key="frame" x="153" y="303" width="15" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass.png" id="Qgp-Yp-oIe">
+                                <rect key="frame" x="118" y="163" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="DKY-Pc-db3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="2eY-qe-Rcy">
+                                        <rect key="frame" x="-160" y="0.0" width="640" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="gTs-0w-wLW"/>
+                                        </connections>
+                                    </mapView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Map_mask_last.png" id="uY8-bF-pd5">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Map_Compass.png" id="e3g-jo-v1B">
+                                        <rect key="frame" x="0.0" y="77" width="320" height="320"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7IZ-Pk-OYh">
+                                        <rect key="frame" x="242" y="425" width="55" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Map_Button_Close.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onclickClose:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i0S-lJ-BWC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IcM-fx-sCN">
+                                        <rect key="frame" x="120" y="425" width="80" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Map_Button_LED_Off.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onclickFlashOnOff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8OD-Zb-5ft"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VaB-fS-fs1">
+                                        <rect key="frame" x="24" y="425" width="55" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Map_Button_Locating.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onclickMapLocation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcA-XJ-es9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Jun-TM-bpf">
+                                <rect key="frame" x="50" y="119" width="220" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="widget_guide_bg.png" id="NO8-4K-O0C">
+                                        <rect key="frame" x="0.0" y="0.0" width="220" height="330"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ih8-Xr-Qcx">
+                                        <rect key="frame" x="81" y="268" width="59" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="OK">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onGuideClose:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QFj-Ci-eey"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aQl-ge-D9U"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="btnguideok" destination="ih8-Xr-Qcx" id="vuI-QP-OfM"/>
+                        <outlet property="guideview" destination="Jun-TM-bpf" id="qcO-UP-jG6"/>
+                        <outlet property="m_btnColor" destination="4Tk-Jz-oBq" id="X2q-O6-wTq"/>
+                        <outlet property="m_btnLocate" destination="VaB-fS-fs1" id="jAT-07-yHG"/>
+                        <outlet property="m_btnMapOn" destination="IcM-fx-sCN" id="nku-5a-SS3"/>
+                        <outlet property="m_btnPower" destination="X9i-kt-SKz" id="YPF-jS-DuJ"/>
+                        <outlet property="m_btnround" destination="WTL-5J-xda" id="A0N-p5-WlF"/>
+                        <outlet property="m_headerscroll" destination="wqa-fd-kwx" id="9tQ-gV-1Un"/>
+                        <outlet property="m_imgArc" destination="25a-m5-GJ9" id="zGh-lt-52f"/>
+                        <outlet property="m_imgArcHighlight" destination="8Ku-03-kyu" id="kiR-fK-jdK"/>
+                        <outlet property="m_imgColor" destination="Wob-47-xn0" id="B5k-y1-Iy1"/>
+                        <outlet property="m_imgMorse" destination="tpd-Zz-JwD" id="VGX-dl-5dB"/>
+                        <outlet property="m_imgPower" destination="jtX-kO-raw" id="BSc-Sq-gAn"/>
+                        <outlet property="m_imgPowerLight" destination="l6s-TQ-CSo" id="Lyk-hw-TZy"/>
+                        <outlet property="m_imgcompass" destination="Qgp-Yp-oIe" id="DYT-Zc-EG5"/>
+                        <outlet property="m_imgpoint" destination="ogt-jA-fom" id="1hZ-tY-YNZ"/>
+                        <outlet property="m_map" destination="2eY-qe-Rcy" id="3RY-mu-rhV"/>
+                        <outlet property="m_mapcompass" destination="e3g-jo-v1B" id="e7C-Nn-hA7"/>
+                        <outlet property="m_mapmaskback" destination="uY8-bF-pd5" id="2EJ-dF-iYo"/>
+                        <outlet property="m_mapview" destination="DKY-Pc-db3" id="Qcx-3h-uTx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79" y="85"/>
+        </scene>
+        <!--Color Controller-->
+        <scene sceneID="Sf0-yk-nN9">
+            <objects>
+                <viewController storyboardIdentifier="colorview" id="7kv-9Z-ie8" customClass="ColorController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rDn-yA-mb1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Color_Adjuster_Bg.png" id="tYZ-CM-bCD">
+                                <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zj9-Fs-BbO">
+                                <rect key="frame" x="20" y="24" width="31" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_close.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onclickClose:" destination="7kv-9Z-ie8" eventType="touchUpInside" id="hXv-4p-eWo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Color_Adjuster_Dot.png" id="2Jg-2Z-dlQ">
+                                <rect key="frame" x="81" y="455" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="m_btnclose" destination="Zj9-Fs-BbO" id="CAA-h4-YCv"/>
+                        <outlet property="m_imgAdjust" destination="tYZ-CM-bCD" id="Xh2-rf-SGD"/>
+                        <outlet property="m_imgDot" destination="2Jg-2Z-dlQ" id="NfL-QS-uAU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M0S-La-ZDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="75"/>
+        </scene>
+        <!--Morse View Controller-->
+        <scene sceneID="rcW-3U-Xph">
+            <objects>
+                <viewController storyboardIdentifier="morseview" id="sgc-8l-nlD" customClass="MorseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4PW-uM-ixW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1y8-ia-VEF">
+                                <rect key="frame" x="111" y="269" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
+                                <connections>
+                                    <outlet property="delegate" destination="sgc-8l-nlD" id="Rdi-F5-c4K"/>
+                                </connections>
+                            </textField>
+                            <view contentMode="scaleToFill" id="IAw-AS-b3b">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Morse_Text_Mask.png" id="ba8-2V-N9x">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sl5-XT-hUo">
+                                        <rect key="frame" x="27" y="53" width="83" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="textColor" red="0.62745098039215685" green="0.63529411764705879" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Morse Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jfv-zn-Tsr">
+                                        <rect key="frame" x="27" y="181" width="105" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="textColor" red="0.62745098040000002" green="0.63529411759999999" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view hidden="YES" contentMode="scaleToFill" id="KBw-AV-27M">
+                                        <rect key="frame" x="20" y="208" width="280" height="81"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Ehe-Mw-1SM">
+                                        <rect key="frame" x="20" y="90" width="280" height="81"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </view>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" id="bqT-eN-kg4">
+                                <rect key="frame" x="15" y="245" width="290" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zsq-2G-8LK">
+                                        <rect key="frame" x="87" y="9" width="116" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Morse_Button_Transmit.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onclickTransmit:" destination="sgc-8l-nlD" eventType="touchUpInside" id="SL0-Rb-Qv7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="65I-MS-SK4">
+                                        <rect key="frame" x="210" y="9" width="80" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Morse_Button_Close.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onclickClose:" destination="sgc-8l-nlD" eventType="touchUpInside" id="vE0-eN-d9w"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g6x-xd-Hnq">
+                                        <rect key="frame" x="0.0" y="9" width="80" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="Map_Button_LED_On.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onclickflashon:" destination="sgc-8l-nlD" eventType="touchUpInside" id="Goj-Tc-RnI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="m_MorseCode" destination="KBw-AV-27M" id="6i3-aq-jl8"/>
+                        <outlet property="m_btnsview" destination="bqT-eN-kg4" id="F6m-8m-HZt"/>
+                        <outlet property="m_close" destination="65I-MS-SK4" id="0fE-E9-cRn"/>
+                        <outlet property="m_flashonoff" destination="g6x-xd-Hnq" id="G4G-VD-cEQ"/>
+                        <outlet property="m_inputtext" destination="1y8-ia-VEF" id="wDh-Is-RLN"/>
+                        <outlet property="m_lblMorseCodetitle" destination="jfv-zn-Tsr" id="7j1-XQ-Qih"/>
+                        <outlet property="m_morseback" destination="ba8-2V-N9x" id="Cih-VE-bDN"/>
+                        <outlet property="m_trasmit" destination="zsq-2G-8LK" id="M57-Gv-Xn4"/>
+                        <outlet property="m_txtMain" destination="Ehe-Mw-1SM" id="gPw-d2-E8G"/>
+                        <outlet property="m_txtview" destination="IAw-AS-b3b" id="OyH-I0-OR8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RZh-PU-vmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="85"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Color_Adjuster_Bg.png" width="320" height="140"/>
+        <image name="Color_Adjuster_Dot.png" width="50" height="50"/>
+        <image name="Indicator_Off.png" width="50" height="50"/>
+        <image name="Map_Button_Close.png" width="110" height="110"/>
+        <image name="Map_Button_LED_Off.png" width="160" height="110"/>
+        <image name="Map_Button_LED_On.png" width="160" height="110"/>
+        <image name="Map_Button_Locating.png" width="110" height="110"/>
+        <image name="Map_Compass.png" width="640" height="640"/>
+        <image name="Map_mask_last.png" width="698" height="1244"/>
+        <image name="Morse_Button_Close.png" width="80" height="55"/>
+        <image name="Morse_Button_Transmit.png" width="116" height="55"/>
+        <image name="Morse_Text_Mask.png" width="320" height="568"/>
+        <image name="arc_rocket.png" width="76" height="150"/>
+        <image name="arc_rocket_highlight.png" width="50" height="50"/>
+        <image name="background.jpg" width="320" height="480"/>
+        <image name="backgroundcover.png" width="320" height="480"/>
+        <image name="brightness_adjustor_bg.png" width="250" height="250"/>
+        <image name="brightness_indicator.png" width="200" height="60"/>
+        <image name="btn_close.png" width="31" height="31"/>
+        <image name="button_up.png" width="143" height="143"/>
+        <image name="color.png" width="102" height="102"/>
+        <image name="compass.png" width="85" height="85"/>
+        <image name="compass_background.png" width="85" height="85"/>
+        <image name="compass_cap.png" width="85" height="85"/>
+        <image name="morse.png" width="102" height="102"/>
+        <image name="mpoint.png" width="60" height="60"/>
+        <image name="widget_guide_bg.png" width="320" height="480"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
